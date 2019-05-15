@@ -6,6 +6,7 @@ A repository for downstream analysis scripts (Python Jupyter notebooks) and BGC 
 
 ## BGCs antismash analysis files (.gbk)
 ```./antismash/```
+
 The sequences are also available on genbank (accession numbers pending)
 
 
