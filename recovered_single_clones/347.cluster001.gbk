@@ -1,0 +1,2303 @@
+LOCUS       347                    34203 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  347.
+ACCESSION   347
+VERSION     347
+KEYWORDS    .
+SOURCE      
+  ORGANISM  
+            .
+FEATURES             Location/Qualifiers
+     CDS             1..315
+                     /locus_tag="ctg1_1"
+                     /translation="CLAHPRGPRVPWEFPCAPAGDVVCETCGSATAATRLTVLAQERVE
+                     GVSDPADEALLAGLRCPACGSQGTLILAYGPRARRSDALVLASLPAAPAAGRQGSLRSA
+                     "
+     cluster         1..34203
+                     /note="Cluster number: 1"
+                     /note="Detection rule(s) for this cluster type: t1pks:
+                     ((PKS_KS & PKS_AT) or (ene_KS & PKS_AT) or (mod_KS &
+                     PKS_AT) or (hyb_KS & PKS_AT) or (itr_KS & PKS_AT) or
+                     (tra_KS & PKS_AT)); nrps: ((Condensation & AMP-binding) or
+                     (Condensation & A-OX) or
+                     cluster(Condensation,AMP-binding));"
+                     /cutoff=20000
+                     /extension=20000
+                     /product="t1pks-nrps"
+                     /contig_edge="True"
+                     /probability="0.9027"
+                     /clusterblast="1. AP014640_c1	Leptolyngbya boryana IAM
+                     M-101 plasmid pLBX DNA, complete geno... (15% of genes show
+                     similarity)"
+                     /clusterblast="2. AP014644_c1	Leptolyngbya boryana dg5
+                     plasmid pLBX DNA, complete genome, st... (15% of genes show
+                     similarity)"
+                     /clusterblast="3. CP002271_c24	Stigmatella aurantiaca
+                     DW4/3-1, complete genome. (19% of genes show similarity)"
+                     /clusterblast="4. CP000117_c1	Anabaena variabilis ATCC
+                     29413, complete genome. (8% of genes show similarity)"
+                     /clusterblast="5. CP002735_c2	Delftia sp. Cs1-4, complete
+                     genome. (8% of genes show similarity)"
+                     /clusterblast="6. JOUB01000005_c2	Delftia acidovorans
+                     strain 2167 DR66.Contig242, whole geno... (4% of genes show
+                     similarity)"
+                     /clusterblast="7. AGYX01000001_c1	Delftia acidovorans CCUG
+                     274B acHMQ-supercont1.1.C1, whole... (4% of genes show
+                     similarity)"
+                     /clusterblast="8. BAEE01000011_c1	Gordonia araii NBRC
+                     100433 DNA, contig: GOARA011, whole ge... (8% of genes show
+                     similarity)"
+                     /clusterblast="9. CP001614_c5	Teredinibacter turnerae
+                     T7901, complete genome. (19% of genes show similarity)"
+                     /clusterblast="10. CP003643_c1	Cylindrospermum stagnale PCC
+                     7417 plasmid pCYLST.01, partial ... (13% of genes show
+                     similarity)"
+                     /knownclusterblast="1.
+                     BGC0001231_c1	Microsclerodermins_biosynthetic_gene_cluster
+                     (28% of genes show similarity)"
+                     /knownclusterblast="2.
+                     BGC0000081_c1	Kedarcidin_biosynthetic_gene_cluster (14% of
+                     genes show similarity)"
+                     /knownclusterblast="3.
+                     BGC0000380_c1	Leupyrrin_biosynthetic_gene_cluster (14% of
+                     genes show similarity)"
+     CDS             608..781
+                     /locus_tag="ctg1_2"
+                     /translation="MEKLAEGTLCQIEILKDGHFFIARTQTESGLAKEFKNTVFEDLLT
+                     EMLITLQEQLTD"
+     CDS             935..1147
+                     /locus_tag="ctg1_3"
+                     /translation="LNSGRKCRSCGLAPHVNTMGHGCGPYACGPGYSGRRYLTKDEKAA
+                     WLKDYADDLENELKAVRERIAEIAA"
+     CDS             complement(1202..2017)
+                     /locus_tag="ctg1_4"
+                     /translation="MPDPTDGMASIPVAVLIDADNVAADMLDAVLAEAARFGRPTIRRV
+                     YGNWTGTELQGWKKLLHEHALQPVQQFAYVPGKNATDTALIIDAMDLLHGGQAEVFCLV
+                     SSDSDYTRLAMRLRESGKTVVGMGRAQTPKSLIKACDRFIALDTLAKGKQRTHAAVRAP
+                     AEDEAPRERGGRRGGRPGGGERNGGSGKAPPREAVELLRGAVEDAEGEDGWADVGAVGN
+                     ILYANNPDFDPRQYGKRQLVALLDSLRGEFEVKRPAEGQRGQSRVRLRA"
+     PFAM_domain     complement(1232..1441)
+                     /note="Pfam-A.hmm-Hit: OST-HTH. Score: 50.6. E-value:
+                     1.2e-13. Domain range: 1..71."
+                     /note="ClusterFinder probability: 0.0263725469186"
+                     /locus_tag="ctg1_4"
+                     /description="OST-HTH/LOTUS domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.20E-13"
+                     /domain="OST-HTH"
+                     /asDomain_id="fullhmmer_ctg1_4_0002"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF12872"
+                     /score="50.6"
+                     /aSTool="fullhmmer"
+                     /translation="PPREAVELLRGAVEDAEGEDGWADVGAVGNILYANNPDFDPRQYG
+                     KRQLVALLDSLRGEFEVKRPAEGQR"
+                     /label="ctg1_4"
+     PFAM_domain     complement(1577..1984)
+                     /note="Pfam-A.hmm-Hit: NYN. Score: 110.1. E-value: 1e-31.
+                     Domain range: 0..146."
+                     /note="ClusterFinder probability: 0.0518063688582"
+                     /locus_tag="ctg1_4"
+                     /description="NYN domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.00E-31"
+                     /domain="NYN"
+                     /asDomain_id="fullhmmer_ctg1_4_0001"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF01936"
+                     /score="110.1"
+                     /aSTool="fullhmmer"
+                     /translation="PVAVLIDADNVAADMLDAVLAEAARFGRPTIRRVYGNWTGTELQG
+                     WKKLLHEHALQPVQQFAYVPGKNATDTALIIDAMDLLHGGQAEVFCLVSSDSDYTRLAM
+                     RLRESGKTVVGMGRAQTPKSLIKACDRFIALD"
+                     /label="ctg1_4"
+     CDS             2070..2960
+                     /locus_tag="ctg1_5"
+                     /translation="LGIAALRKVLPPAPFDVAQLQGKTVAVDADNLVWSFVTAMAATAE
+                     LPKAPDGRSNAHLIGLLNRLSLYAKWGTRSVWVFDGVQPDLKEATLIERAERIEAARAS
+                     GDNYQAGVAVDEDDLQECRELLRALGLPYVDSPGEADAQCAHLVQAGHAWAAVTQDWDI
+                     ALFGAPRALRNLTLSTKRTPEILDLDVVLGVAGLTREQLVDAAILMGTDYNEGVSGMGP
+                     VKAVQAVKKGPGAPERNGVANADEVRRLYFDHPVDKRFRPKFGKPDAKALGKLLKSRGI
+                     DVERGEGLVAALQSL"
+     PFAM_domain     2073..2360
+                     /note="Pfam-A.hmm-Hit: XPG_N. Score: 37.8. E-value:
+                     1.7e-09. Domain range: 1..97."
+                     /note="ClusterFinder probability: 3.29030194401e-05"
+                     /locus_tag="ctg1_5"
+                     /description="XPG N-terminal domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.70E-09"
+                     /domain="XPG_N"
+                     /asDomain_id="fullhmmer_ctg1_5_0002"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF00752"
+                     /score="37.8"
+                     /aSTool="fullhmmer"
+                     /translation="GIAALRKVLPPAPFDVAQLQGKTVAVDADNLVWSFVTAMAATAEL
+                     PKAPDGRSNAHLIGLLNRLSLYAKWGTRSVWVFDGVQPDLKEATLIERAER"
+                     /label="ctg1_5"
+     PFAM_domain     2439..2573
+                     /note="Pfam-A.hmm-Hit: XPG_I_2. Score: 16.8. E-value:
+                     0.0035. Domain range: 10..57."
+                     /note="ClusterFinder probability: 0.00196896465789"
+                     /locus_tag="ctg1_5"
+                     /description="XPG domain containing"
+                     /database="Pfam-A.hmm"
+                     /evalue="3.50E-03"
+                     /domain="XPG_I_2"
+                     /asDomain_id="fullhmmer_ctg1_5_0003"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF12813"
+                     /score="16.8"
+                     /aSTool="fullhmmer"
+                     /translation="ELLRALGLPYVDSPGEADAQCAHLVQAGHAWAAVTQDWDIALFGA
+                     "
+                     /label="ctg1_5"
+     PFAM_domain     2451..2705
+                     /note="Pfam-A.hmm-Hit: XPG_I. Score: 86.1. E-value:
+                     1.2e-24. Domain range: 1..94."
+                     /note="ClusterFinder probability: 0.000215130110159"
+                     /locus_tag="ctg1_5"
+                     /description="XPG I-region"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.20E-24"
+                     /domain="XPG_I"
+                     /asDomain_id="fullhmmer_ctg1_5_0001"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF00867"
+                     /score="86.1"
+                     /aSTool="fullhmmer"
+                     /translation="ALGLPYVDSPGEADAQCAHLVQAGHAWAAVTQDWDIALFGAPRAL
+                     RNLTLSTKRTPEILDLDVVLGVAGLTREQLVDAAILMGTD"
+                     /label="ctg1_5"
+     CDS             complement(2901..3077)
+                     /locus_tag="ctg1_6"
+                     /translation="MSSPRRQQGQPQRAQRPAERGWPLRPLRCLRLPLLAPTGLQGLQR
+                     RDQSLAAFHVDAA"
+     CDS             complement(3098..3733)
+                     /locus_tag="ctg1_7"
+                     /translation="MPNAYHHIGETWKKHDKEHGTAQWDRLVAWRNGPSFVKVDKPLRL
+                     DRARALGYKAKQGVVVVRARVRRGGLRKQRFVQGRVPSKMGVNKITMRQNTQAIAEVRV
+                     SKHFPNLEVLNSYYVGEDGKHHYYEVILLDPYHPAIESDKDLGWITQGNARNRVLRGKT
+                     SAGQKHRGLRWTGKGSEHTRPSVRKSVIRKKTDRLKWKAKDQAKQTRL"
+     PFAM_domain     complement(3167..3724)
+                     /note="Pfam-A.hmm-Hit: Ribosomal_L15e. Score: 243.7.
+                     E-value: 1e-72. Domain range: 1..190."
+                     /note="ClusterFinder probability: 0.00206380416932"
+                     /locus_tag="ctg1_7"
+                     /description="Ribosomal L15"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.00E-72"
+                     /domain="Ribosomal_L15e"
+                     /asDomain_id="fullhmmer_ctg1_7_0001"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF00827"
+                     /score="243.7"
+                     /aSTool="fullhmmer"
+                     /translation="AYHHIGETWKKHDKEHGTAQWDRLVAWRNGPSFVKVDKPLRLDRA
+                     RALGYKAKQGVVVVRARVRRGGLRKQRFVQGRVPSKMGVNKITMRQNTQAIAEVRVSKH
+                     FPNLEVLNSYYVGEDGKHHYYEVILLDPYHPAIESDKDLGWITQGNARNRVLRGKTSAG
+                     QKHRGLRWTGKGSEHTRPSVRKS"
+                     /label="ctg1_7"
+     CDS             complement(3956..4591)
+                     /note="smCOG: SMCOG1012:4'-phosphopantetheinyl_transferase
+                     (Score: 138.9; E-value: 2.5e-42);"
+                     /locus_tag="ctg1_8"
+                     /translation="MEPLAPDEVRVFVVRVPPGEPRSDALDDGERQRAAGFRRAEDRRR
+                     FVAARQALREILAQHAGGAPADVAFAMRCARCGSARHGKPALARPAGTDLRFSATRSGD
+                     VALVAVARGRALGVDVERVDARVDHREIAARFFARGERDGLDLAGFYEAWTRKEALLKL
+                     SGLGLAGDLAAPPPPGAWVERIMVPDGYAGAVAGEGAPPRLVTRPWPS"
+     PFAM_domain     complement(4088..4246)
+                     /note="Pfam-A.hmm-Hit: ACPS. Score: 24.1. E-value: 2.3e-05.
+                     Domain range: 1..61."
+                     /note="ClusterFinder probability: 0.137031576134"
+                     /locus_tag="ctg1_8"
+                     /description="4'-phosphopantetheinyl transferase
+                     superfamily"
+                     /database="Pfam-A.hmm"
+                     /evalue="2.30E-05"
+                     /domain="ACPS"
+                     /asDomain_id="fullhmmer_ctg1_8_0001"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF01648"
+                     /score="24.1"
+                     /aSTool="fullhmmer"
+                     /translation="LGVDVERVDARVDHREIAARFFARGERDGLDLAGFYEAWTRKEAL
+                     LKLSGLGL"
+                     /label="ctg1_8"
+     CDS             4642..5385
+                     /note="smCOG: SMCOG1004:thioesterase (Score: 266.5;
+                     E-value: 2.6e-81);"
+                     /note="smCOG tree PNG image: smcogs/ctg1_9.png"
+                     /locus_tag="ctg1_9"
+                     /translation="LSPPRWVAYASAPARLRLRLFVFPHAGAGAASYRAWAGALPPDVQ
+                     LALVQLPGREARLAEPPFRRMHDLVDALVPALRPHLDAPFAFFGHSMGAHVAFEAARAL
+                     RAEGHEPMHLVVSGNRAPHLPFPRPRIHHLPEERILAEFQRLGGTPPEILADVQLMTLL
+                     LPVLRADLELCETYVAEPGASLTCPVTAFGGTRDPDVPPAALDAWRECTTGPFARHLFQ
+                     GTHFFLQEERPRVLAALAGALRGHP"
+                     /sec_met="Type: none"
+                     /sec_met="Domains detected: PF12697 (E-value: 1e-09,
+                     bitscore: 29.7, seeds: 465)"
+                     /sec_met="Kind: biosynthetic"
+     PFAM_domain     4696..5358
+                     /note="Pfam-A.hmm-Hit: Thioesterase. Score: 176.9. E-value:
+                     6.8e-52. Domain range: 1..225."
+                     /note="ClusterFinder probability: 0.200446582148"
+                     /locus_tag="ctg1_9"
+                     /description="Thioesterase domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="6.80E-52"
+                     /domain="Thioesterase"
+                     /asDomain_id="fullhmmer_ctg1_9_0001"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF00975"
+                     /score="176.9"
+                     /aSTool="fullhmmer"
+                     /translation="RLFVFPHAGAGAASYRAWAGALPPDVQLALVQLPGREARLAEPPF
+                     RRMHDLVDALVPALRPHLDAPFAFFGHSMGAHVAFEAARALRAEGHEPMHLVVSGNRAP
+                     HLPFPRPRIHHLPEERILAEFQRLGGTPPEILADVQLMTLLLPVLRADLELCETYVAEP
+                     GASLTCPVTAFGGTRDPDVPPAALDAWRECTTGPFARHLFQGTHFFLQEERPRVLAAL"
+                     /label="ctg1_9"
+     PFAM_domain     4705..5355
+                     /note="Pfam-A.hmm-Hit: Abhydrolase_6. Score: 53.3. E-value:
+                     3.3e-14. Domain range: 2..227."
+                     /note="ClusterFinder probability: 0.137054732151"
+                     /locus_tag="ctg1_9"
+                     /description="Alpha/beta hydrolase family"
+                     /database="Pfam-A.hmm"
+                     /evalue="3.30E-14"
+                     /domain="Abhydrolase_6"
+                     /asDomain_id="fullhmmer_ctg1_9_0002"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF12697"
+                     /score="53.3"
+                     /aSTool="fullhmmer"
+                     /translation="VFPHAGAGAASYRAWAGALPPDVQLALVQLPGREARLAEPPFRRM
+                     HDLVDALVPALRPHLDAPFAFFGHSMGAHVAFEAARALRAEGHEPMHLVVSGNRAPHLP
+                     FPRPRIHHLPEERILAEFQRLGGTPPEILADVQLMTLLLPVLRADLELCETYVAEPGAS
+                     LTCPVTAFGGTRDPDVPPAALDAWRECTTGPFARHLFQGTHFFLQEERPRVLAA"
+                     /label="ctg1_9"
+     PFAM_domain     4708..5283
+                     /note="Pfam-A.hmm-Hit: Abhydrolase_5. Score: 42.6. E-value:
+                     4.7e-11. Domain range: 4..132."
+                     /note="ClusterFinder probability: 0.074972818248"
+                     /locus_tag="ctg1_9"
+                     /description="Alpha/beta hydrolase family"
+                     /database="Pfam-A.hmm"
+                     /evalue="4.70E-11"
+                     /domain="Abhydrolase_5"
+                     /asDomain_id="fullhmmer_ctg1_9_0003"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF12695"
+                     /score="42.6"
+                     /aSTool="fullhmmer"
+                     /translation="FPHAGAGAASYRAWAGALPPDVQLALVQLPGREARLAEPPFRRMH
+                     DLVDALVPALRPHLDAPFAFFGHSMGAHVAFEAARALRAEGHEPMHLVVSGNRAPHLPF
+                     PRPRIHHLPEERILAEFQRLGGTPPEILADVQLMTLLLPVLRADLELCETYVAEPGASL
+                     TCPVTAFGGTRDPDVPPAALDAWRECTTG"
+                     /label="ctg1_9"
+     CDS             5396..6424
+                     /locus_tag="ctg1_10"
+                     /translation="MMGLRVRTPMRSAAVGLVLLLVWSAPLVWGSPTAAWEELPPMTGA
+                     RAEATAATVGSHIYVIGGVMEDFLPVVSGTEGRVDVYDIETEEWQPGPPLPLAVNHATA
+                     VAVGTKIYVIGGYIGSLLFTPVATTWVLDTSVPLDEQAWAPFVPLPAARAAHAAVTDGQ
+                     TIWVFGGIGEPGAISIGVPEAFHERTVLALDLEADVPAWQVLGLFPDVRDHLVGAYHDG
+                     KVYAIGGRDLQVQLITGRMDVLDVATGTWSVGPSLPTARGGAGAAVINGSIYVVGGETT
+                     THAFADAEAYDTALGTWSVLPPMPGPRHGVGVVAVDGSLYVEGGGPAPGYAFSATNFRL
+                     LA"
+     cluster_border  5396..33080
+                     /note="best prediction"
+                     /tool="clusterfinder"
+                     /probability="0.902745320413"
+     PFAM_domain     5528..5683
+                     /note="Pfam-A.hmm-Hit: Kelch_1. Score: 31.3. E-value:
+                     1e-07. Domain range: 0..47."
+                     /note="ClusterFinder probability: 0.0138499709605"
+                     /locus_tag="ctg1_10"
+                     /description="Kelch motif"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.00E-07"
+                     /domain="Kelch_1"
+                     /asDomain_id="fullhmmer_ctg1_10_0001"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF01344"
+                     /score="31.3"
+                     /aSTool="fullhmmer"
+                     /translation="ARAEATAATVGSHIYVIGGVMEDFLPVVSGTEGRVDVYDIETEEW
+                     QPGPPLP"
+                     /label="ctg1_10"
+     PFAM_domain     5528..5683
+                     /note="Pfam-A.hmm-Hit: Kelch_4. Score: 25.4. E-value:
+                     8.2e-06. Domain range: 0..48."
+                     /note="ClusterFinder probability: 0.21343215756"
+                     /locus_tag="ctg1_10"
+                     /description="Galactose oxidase, central domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="8.20E-06"
+                     /domain="Kelch_4"
+                     /asDomain_id="fullhmmer_ctg1_10_0009"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13418"
+                     /score="25.4"
+                     /aSTool="fullhmmer"
+                     /translation="ARAEATAATVGSHIYVIGGVMEDFLPVVSGTEGRVDVYDIETEEW
+                     QPGPPLP"
+                     /label="ctg1_10"
+     PFAM_domain     5537..5683
+                     /note="Pfam-A.hmm-Hit: Kelch_6. Score: 27.4. E-value:
+                     2.5e-06. Domain range: 3..47."
+                     /note="ClusterFinder probability: 0.0501287442987"
+                     /locus_tag="ctg1_10"
+                     /description="Kelch motif"
+                     /database="Pfam-A.hmm"
+                     /evalue="2.50E-06"
+                     /domain="Kelch_6"
+                     /asDomain_id="fullhmmer_ctg1_10_0005"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13964"
+                     /score="27.4"
+                     /aSTool="fullhmmer"
+                     /translation="EATAATVGSHIYVIGGVMEDFLPVVSGTEGRVDVYDIETEEWQPG
+                     PPLP"
+                     /label="ctg1_10"
+     PFAM_domain     5678..5797
+                     /note="Pfam-A.hmm-Hit: Kelch_5. Score: 23.2. E-value:
+                     4.8e-05. Domain range: 0..39."
+                     /note="ClusterFinder probability: 0.490764452666"
+                     /locus_tag="ctg1_10"
+                     /description="Kelch motif"
+                     /database="Pfam-A.hmm"
+                     /evalue="4.80E-05"
+                     /domain="Kelch_5"
+                     /asDomain_id="fullhmmer_ctg1_10_0015"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13854"
+                     /score="23.2"
+                     /aSTool="fullhmmer"
+                     /translation="LPLAVNHATAVAVGTKIYVIGGYIGSLLFTPVATTWVLDT"
+                     /label="ctg1_10"
+     PFAM_domain     5693..5779
+                     /note="Pfam-A.hmm-Hit: Kelch_1. Score: 20.6. E-value:
+                     0.00023. Domain range: 2..29."
+                     /note="ClusterFinder probability: 0.00409661464679"
+                     /locus_tag="ctg1_10"
+                     /description="Kelch motif"
+                     /database="Pfam-A.hmm"
+                     /evalue="2.30E-04"
+                     /domain="Kelch_1"
+                     /asDomain_id="fullhmmer_ctg1_10_0002"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF01344"
+                     /score="20.6"
+                     /aSTool="fullhmmer"
+                     /translation="NHATAVAVGTKIYVIGGYIGSLLFTPVAT"
+                     /label="ctg1_10"
+     PFAM_domain     5696..5809
+                     /note="Pfam-A.hmm-Hit: Kelch_6. Score: 22.8. E-value:
+                     6.8e-05. Domain range: 3..35."
+                     /note="ClusterFinder probability: 0.0904074805985"
+                     /locus_tag="ctg1_10"
+                     /description="Kelch motif"
+                     /database="Pfam-A.hmm"
+                     /evalue="6.80E-05"
+                     /domain="Kelch_6"
+                     /asDomain_id="fullhmmer_ctg1_10_0006"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13964"
+                     /score="22.8"
+                     /aSTool="fullhmmer"
+                     /translation="HATAVAVGTKIYVIGGYIGSLLFTPVATTWVLDTSVPL"
+                     /label="ctg1_10"
+     PFAM_domain     5840..5911
+                     /note="Pfam-A.hmm-Hit: Kelch_5. Score: 19.3. E-value:
+                     0.00078. Domain range: 0..24."
+                     /note="ClusterFinder probability: 0.544039110504"
+                     /locus_tag="ctg1_10"
+                     /description="Kelch motif"
+                     /database="Pfam-A.hmm"
+                     /evalue="7.80E-04"
+                     /domain="Kelch_5"
+                     /asDomain_id="fullhmmer_ctg1_10_0016"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13854"
+                     /score="19.3"
+                     /aSTool="fullhmmer"
+                     /translation="LPAARAAHAAVTDGQTIWVFGGIG"
+                     /label="ctg1_10"
+     PFAM_domain     5849..5923
+                     /note="Pfam-A.hmm-Hit: Kelch_4. Score: 19.5. E-value:
+                     0.00057. Domain range: 0..26."
+                     /note="ClusterFinder probability: 0.255942283738"
+                     /locus_tag="ctg1_10"
+                     /description="Galactose oxidase, central domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="5.70E-04"
+                     /domain="Kelch_4"
+                     /asDomain_id="fullhmmer_ctg1_10_0010"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13418"
+                     /score="19.5"
+                     /aSTool="fullhmmer"
+                     /translation="ARAAHAAVTDGQTIWVFGGIGEPGA"
+                     /label="ctg1_10"
+     PFAM_domain     6041..6169
+                     /note="Pfam-A.hmm-Hit: Kelch_1. Score: 26.7. E-value:
+                     2.9e-06. Domain range: 5..47."
+                     /note="ClusterFinder probability: 0.00354823345563"
+                     /locus_tag="ctg1_10"
+                     /description="Kelch motif"
+                     /database="Pfam-A.hmm"
+                     /evalue="2.90E-06"
+                     /domain="Kelch_1"
+                     /asDomain_id="fullhmmer_ctg1_10_0003"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF01344"
+                     /score="26.7"
+                     /aSTool="fullhmmer"
+                     /translation="VGAYHDGKVYAIGGRDLQVQLITGRMDVLDVATGTWSVGPSLP"
+                     /label="ctg1_10"
+     PFAM_domain     6044..6178
+                     /note="Pfam-A.hmm-Hit: Kelch_6. Score: 23.7. E-value:
+                     3.7e-05. Domain range: 6..50."
+                     /note="ClusterFinder probability: 0.130897985926"
+                     /locus_tag="ctg1_10"
+                     /description="Kelch motif"
+                     /database="Pfam-A.hmm"
+                     /evalue="3.70E-05"
+                     /domain="Kelch_6"
+                     /asDomain_id="fullhmmer_ctg1_10_0007"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13964"
+                     /score="23.7"
+                     /aSTool="fullhmmer"
+                     /translation="GAYHDGKVYAIGGRDLQVQLITGRMDVLDVATGTWSVGPSLPTAR
+                     "
+                     /label="ctg1_10"
+     PFAM_domain     6056..6172
+                     /note="Pfam-A.hmm-Hit: Kelch_4. Score: 20.3. E-value:
+                     0.00033. Domain range: 11..49."
+                     /note="ClusterFinder probability: 0.29959973499"
+                     /locus_tag="ctg1_10"
+                     /description="Galactose oxidase, central domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="3.30E-04"
+                     /domain="Kelch_4"
+                     /asDomain_id="fullhmmer_ctg1_10_0011"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13418"
+                     /score="20.3"
+                     /aSTool="fullhmmer"
+                     /translation="DGKVYAIGGRDLQVQLITGRMDVLDVATGTWSVGPSLPT"
+                     /label="ctg1_10"
+     PFAM_domain     6059..6202
+                     /note="Pfam-A.hmm-Hit: Kelch_3. Score: 23.2. E-value:
+                     5.2e-05. Domain range: 1..49."
+                     /note="ClusterFinder probability: 0.391351450011"
+                     /locus_tag="ctg1_10"
+                     /description="Galactose oxidase, central domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="5.20E-05"
+                     /domain="Kelch_3"
+                     /asDomain_id="fullhmmer_ctg1_10_0013"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13415"
+                     /score="23.2"
+                     /aSTool="fullhmmer"
+                     /translation="GKVYAIGGRDLQVQLITGRMDVLDVATGTWSVGPSLPTARGGAGA
+                     AVI"
+                     /label="ctg1_10"
+     PFAM_domain     6164..6271
+                     /note="Pfam-A.hmm-Hit: Kelch_5. Score: 17.2. E-value:
+                     0.0036. Domain range: 0..38."
+                     /note="ClusterFinder probability: 0.600089335472"
+                     /locus_tag="ctg1_10"
+                     /description="Kelch motif"
+                     /database="Pfam-A.hmm"
+                     /evalue="3.60E-03"
+                     /domain="Kelch_5"
+                     /asDomain_id="fullhmmer_ctg1_10_0017"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13854"
+                     /score="17.2"
+                     /aSTool="fullhmmer"
+                     /translation="LPTARGGAGAAVINGSIYVVGGETTTHAFADAEAYD"
+                     /label="ctg1_10"
+     PFAM_domain     6173..6310
+                     /note="Pfam-A.hmm-Hit: Kelch_1. Score: 46.9. E-value:
+                     1.4e-12. Domain range: 0..47."
+                     /note="ClusterFinder probability: 0.00983413296321"
+                     /locus_tag="ctg1_10"
+                     /description="Kelch motif"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.40E-12"
+                     /domain="Kelch_1"
+                     /asDomain_id="fullhmmer_ctg1_10_0004"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF01344"
+                     /score="46.9"
+                     /aSTool="fullhmmer"
+                     /translation="ARGGAGAAVINGSIYVVGGETTTHAFADAEAYDTALGTWSVLPPM
+                     P"
+                     /label="ctg1_10"
+     PFAM_domain     6173..6310
+                     /note="Pfam-A.hmm-Hit: Kelch_4. Score: 36.0. E-value:
+                     4e-09. Domain range: 0..48."
+                     /note="ClusterFinder probability: 0.344651250925"
+                     /locus_tag="ctg1_10"
+                     /description="Galactose oxidase, central domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="4.00E-09"
+                     /domain="Kelch_4"
+                     /asDomain_id="fullhmmer_ctg1_10_0012"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13418"
+                     /score="36.0"
+                     /aSTool="fullhmmer"
+                     /translation="ARGGAGAAVINGSIYVVGGETTTHAFADAEAYDTALGTWSVLPPM
+                     P"
+                     /label="ctg1_10"
+     PFAM_domain     6173..6310
+                     /note="Pfam-A.hmm-Hit: Kelch_2. Score: 15.6. E-value:
+                     0.0095. Domain range: 0..49."
+                     /note="ClusterFinder probability: 0.65923190764"
+                     /locus_tag="ctg1_10"
+                     /description="Kelch motif"
+                     /database="Pfam-A.hmm"
+                     /evalue="9.50E-03"
+                     /domain="Kelch_2"
+                     /asDomain_id="fullhmmer_ctg1_10_0018"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF07646"
+                     /score="15.6"
+                     /aSTool="fullhmmer"
+                     /translation="ARGGAGAAVINGSIYVVGGETTTHAFADAEAYDTALGTWSVLPPM
+                     P"
+                     /label="ctg1_10"
+     PFAM_domain     6188..6319
+                     /note="Pfam-A.hmm-Hit: Kelch_6. Score: 28.9. E-value:
+                     8.3e-07. Domain range: 5..50."
+                     /note="ClusterFinder probability: 0.171829101205"
+                     /locus_tag="ctg1_10"
+                     /description="Kelch motif"
+                     /database="Pfam-A.hmm"
+                     /evalue="8.30E-07"
+                     /domain="Kelch_6"
+                     /asDomain_id="fullhmmer_ctg1_10_0008"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13964"
+                     /score="28.9"
+                     /aSTool="fullhmmer"
+                     /translation="GAAVINGSIYVVGGETTTHAFADAEAYDTALGTWSVLPPMPGPR"
+                     /label="ctg1_10"
+     PFAM_domain     6206..6340
+                     /note="Pfam-A.hmm-Hit: Kelch_3. Score: 30.0. E-value:
+                     3.8e-07. Domain range: 1..48."
+                     /note="ClusterFinder probability: 0.439964268608"
+                     /locus_tag="ctg1_10"
+                     /description="Galactose oxidase, central domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="3.80E-07"
+                     /domain="Kelch_3"
+                     /asDomain_id="fullhmmer_ctg1_10_0014"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13415"
+                     /score="30.0"
+                     /aSTool="fullhmmer"
+                     /translation="GSIYVVGGETTTHAFADAEAYDTALGTWSVLPPMPGPRHGVGVVA
+                     "
+                     /label="ctg1_10"
+     CDS             complement(6451..10239)
+                     /note="smCOG: SMCOG1022:Beta-ketoacyl_synthase (Score:
+                     260.6; E-value: 4.4e-79);"
+                     /note="smCOG tree PNG image: smcogs/ctg1_11.png"
+                     /locus_tag="ctg1_11"
+                     /translation="MNEPEAIAVVGMACRVPGASTPEAFMEMLCRGVEAVRPEQEWPRA
+                     DTTPPARPPFAGRAAGALEGIDLFDAAYFGITPREAELMDPQQRLFLECCAEALQRAGR
+                     DVAGSRVGVYAGAGVNAYLLERVLPTRRVMADSAFQAMAMNEKDFLATQVSYRLDLTGP
+                     SMTVQTACSTSLVAVSLACEALLGHQCDLALAGGSAVKADPGYGSFLEEGGIMTEDGHC
+                     RAFDAKASGTVGGSAVGAVLLKRLSEAVADGDVIHAVIRGTALNNDGARKVGFTAPSVE
+                     GQAAVVAEAHAVAGIDPATLGYIEAHGTGTRLGDPIEVAALRQAFGREAPRGSCALGSV
+                     KTNVGHADAAAGVIGLIKAVLAVEQGRIPPTLHFDEPNPALKLDESPFYVNRQTVAFRG
+                     SPRRAGVSSFGIGGTNAHVVVEQAPARASATPDVRPQVLVLSARTPSALDTLAQGLADH
+                     IEAGAHLADVAWTLQAGRRRLAHRRAVVGRDRAEAIAHLRGQTRGASSARSEADTLQVA
+                     FLFPGQGAQHLGMAQALYESEPVFRREVDRCCDLLVAPLGMDLREVLFPAPERRAEAEK
+                     LLATTLCTQPAVFVVEHALAELWTSWGVRPAAVLGHSLGEYVAARVAGVLTLEDALTLV
+                     ALRAKLMEALPEGAMLAVPLGEADLRPLLPPGVSLAGVNAPESCVASGAPADIEALSTL
+                     LAARGIEAKRLRVARAFHSAMMEPVLADFHAAVARLPLRAPTIPLLSNVTGRPLEPHEA
+                     TDPAYWMRHLREAVRFADGVAALLADPTLALLEVGPGRTLTALAARQASKDRVVLASLR
+                     HPDDAAADDAVVLHQALGRLWLAGLRPDWAGVHAPAAPRRTIVPTYPFERQRFWLDPPA
+                     KGDTAPDDARVRARGWRRALRPSPALPGRWLLVGGNEALAQRLRAAGHTVERAPAGTRV
+                     ENEALFSRRQNGAATTWVALVDGTLPALDAVHDGVPLVVVTREAHDVTGREMLGDAPLA
+                     AAALARGARVIDVDGSGDPARLAAEMASAESGDAVVALRGAHRWVPSEESADAAGPGGS
+                     PLAITRRLPDLAGATSDEVERALADEGRAMDALLADGAPAVLATSGGALHGLALARTAL
+                     ARRAGLSWRVVQCEDWERTDPADVARALAVDAAHITIDTPRRESTLRETYERPALAVAP
+                     VAPTTPIEERLVAVWEDAFGFQGIGVQDDFFELGGHSLLATRIVNRVKEEFDVAVALPQ
+                     FFQARSVADFAAVLEAALLEKLGAMSDEDVERALEAR"
+                     /sec_met="Type: t1pks"
+                     /sec_met="Domains detected: PP-binding (E-value: 5.8e-15,
+                     bitscore: 46.1, seeds: 164); PKS_AT (E-value: 1.9e-101,
+                     bitscore: 329.8, seeds: 1682); hyb_KS (E-value: 2.2e-154,
+                     bitscore: 504.8, seeds: 33)"
+                     /sec_met="Kind: biosynthetic"
+     PFAM_domain     complement(6526..6717)
+                     /note="Pfam-A.hmm-Hit: PP-binding. Score: 46.1. E-value:
+                     4.3e-12. Domain range: 0..66."
+                     /note="ClusterFinder probability: 0.999907783561"
+                     /locus_tag="ctg1_11"
+                     /description="Phosphopantetheine attachment site"
+                     /database="Pfam-A.hmm"
+                     /evalue="4.30E-12"
+                     /domain="PP-binding"
+                     /asDomain_id="fullhmmer_ctg1_11_0004"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF00550"
+                     /score="46.1"
+                     /aSTool="fullhmmer"
+                     /translation="ERLVAVWEDAFGFQGIGVQDDFFELGGHSLLATRIVNRVKEEFDV
+                     AVALPQFFQARSVADFAAV"
+                     /label="ctg1_11"
+     PFAM_domain     complement(7807..8688)
+                     /note="Pfam-A.hmm-Hit: Acyl_transf_1. Score: 210.9.
+                     E-value: 2.8e-62. Domain range: 1..294."
+                     /note="ClusterFinder probability: 0.998683962024"
+                     /locus_tag="ctg1_11"
+                     /description="Acyl transferase domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="2.80E-62"
+                     /domain="Acyl_transf_1"
+                     /asDomain_id="fullhmmer_ctg1_11_0002"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF00698"
+                     /score="210.9"
+                     /aSTool="fullhmmer"
+                     /translation="FLFPGQGAQHLGMAQALYESEPVFRREVDRCCDLLVAPLGMDLRE
+                     VLFPAPERRAEAEKLLATTLCTQPAVFVVEHALAELWTSWGVRPAAVLGHSLGEYVAAR
+                     VAGVLTLEDALTLVALRAKLMEALPEGAMLAVPLGEADLRPLLPPGVSLAGVNAPESCV
+                     ASGAPADIEALSTLLAARGIEAKRLRVARAFHSAMMEPVLADFHAAVARLPLRAPTIPL
+                     LSNVTGRPLEPHEATDPAYWMRHLREAVRFADGVAALLADPTLALLEVGPGRTLTALAA
+                     RQASKDRVVLASL"
+                     /label="ctg1_11"
+     PFAM_domain     complement(9115..9471)
+                     /note="Pfam-A.hmm-Hit: Ketoacyl-synt_C. Score: 143.9.
+                     E-value: 1.7e-42. Domain range: 0..119."
+                     /note="ClusterFinder probability: 0.999814409269"
+                     /locus_tag="ctg1_11"
+                     /description="Beta-ketoacyl synthase, C-terminal domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.70E-42"
+                     /domain="Ketoacyl-synt_C"
+                     /asDomain_id="fullhmmer_ctg1_11_0003"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF02801"
+                     /score="143.9"
+                     /aSTool="fullhmmer"
+                     /translation="HAVIRGTALNNDGARKVGFTAPSVEGQAAVVAEAHAVAGIDPATL
+                     GYIEAHGTGTRLGDPIEVAALRQAFGREAPRGSCALGSVKTNVGHADAAAGVIGLIKAV
+                     LAVEQGRIPPTLHFD"
+                     /label="ctg1_11"
+     PFAM_domain     complement(9493..10227)
+                     /note="Pfam-A.hmm-Hit: ketoacyl-synt. Score: 221.2.
+                     E-value: 1.4e-65. Domain range: 1..254."
+                     /note="ClusterFinder probability: 0.974290038929"
+                     /locus_tag="ctg1_11"
+                     /description="Beta-ketoacyl synthase, N-terminal domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.40E-65"
+                     /domain="ketoacyl-synt"
+                     /asDomain_id="fullhmmer_ctg1_11_0001"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF00109"
+                     /score="221.2"
+                     /aSTool="fullhmmer"
+                     /translation="EAIAVVGMACRVPGASTPEAFMEMLCRGVEAVRPEQEWPRADTTP
+                     PARPPFAGRAAGALEGIDLFDAAYFGITPREAELMDPQQRLFLECCAEALQRAGRDVAG
+                     SRVGVYAGAGVNAYLLERVLPTRRVMADSAFQAMAMNEKDFLATQVSYRLDLTGPSMTV
+                     QTACSTSLVAVSLACEALLGHQCDLALAGGSAVKADPGYGSFLEEGGIMTEDGHCRAFD
+                     AKASGTVGGSAVGAVLLKRLSEA"
+                     /label="ctg1_11"
+     CDS             11058..11198
+                     /locus_tag="ctg1_12"
+                     /translation="MQISPRPVASGARMRAVEPDTGRPIVGSTPGTQCSVVLQTVVSVG
+                     P"
+     CDS             11223..12128
+                     /locus_tag="ctg1_13"
+                     /translation="LAQRSTREARQASPPTKMVWRSGSSAYGRAARTEGGKKAAVMRRS
+                     ARSRTSAGPGTRSLGSRTWSVAPVARPMSVSKREASQPTAANWVMRSPGPIPKARCISS
+                     TRAARAAWSTRTPLGRPVEPDVYSRYARSPGTISGRETSAGAPSVPSRSRQSAPSMDVL
+                     ARTVRGRASWSTRSRRPAGWSGSRGRYTAPARRMARKPTTTSAERSLWRPTTSPVRTPW
+                     ATRRCARRRDRASRSPYVSAVVPQTTAGASGRSTAWRRTASCASSGPVSATPPAGPVRR
+                     SSPSRRAMRGRAPAGHRARA"
+     CDS             complement(12031..20400)
+                     /note="smCOG:
+                     SMCOG1127:condensation_domain-containing_protein (Score:
+                     425.1; E-value: 6.2e-129);"
+                     /note="smCOG tree PNG image: smcogs/ctg1_14.png"
+                     /locus_tag="ctg1_14"
+                     /translation="VTTYEFPLSFAQQRLWFLDQWRPGTPLYNVPAAYRIRQPLDVARL
+                     RAALDAIAHRHEVLRTTFAADTDGKPVQVVHPPGPFPFTLADAATWEEAESLAKKEAHR
+                     PFDLAHDRPCRAVLVRLAPDDHVLVLTFHHAAFDGWSLDLFVGELAALYGGTDLPGLPI
+                     QYADYAVWQREQLASGAWDAHVEAWRAMLRDISPLDVPTDRPRPAVQAHRGARRTVRIA
+                     ADDLQALRAIAKREGATPFMVLLAAWHAVLHRHAGQDDIAVGIPTSGREQGEAQGLLGF
+                     FVNTLVVRADLSGEPTFLALLRRVRAACLRAFDHQAVPFDVLVSALRPERDPARNPFCQ
+                     ALFTFDDRPATPPAGPLRLEPHHPPLDVAKFDLTLSLRADGEGAQAWLEYDTDLFDDAT
+                     AGRMAEHYRALVHAFARDPDVPVSGAPMLSDEETQSELVRWNDTAVPYPRDRRVHELVE
+                     AAAARAPQAVALATDGGKLTYGELDARANRLAHHLARHGAARGTLVGVCVEKGPDLVVS
+                     LLATLKTGAAYVPLDAAYPPERLAFMLADARLALVIADAGGAKALPERGARLVRPDAPE
+                     AMLEPAGPLDVPGSADDPAYVMYTSGSTGRPKGVVVPHRGIVRLVMGVDYWTFGPDEAI
+                     GFLSTVSFDAATLEVWGALAHGARLVVPPPRQLSFQELGDLLHRHLVTTVLLTTPLFHA
+                     MVDENPAGLRGLKQLIAGGDALSPRHAERALRALPGVRIVNGYGPTENTTLVTCHVVDA
+                     PPAERVPIGRPIANTRAYVLDRHLQPVPVGVAGELYAAGDGLALGYLHRPDLTAERFVA
+                     RAGERLYRTGDLARRLPDGTLDFLGRVDRQIKVRGFRIEPGEVEATLGAHPDVRECLVD
+                     AREDVPGRKRLIAWVVPRAGANVSAQGLRAFLQERLPEHMVPGAFVPLDAMPLMPSGKV
+                     DRKALPAPREGPAAESAPRTPAEATLADVWAEVLGVPRVGIHENFFQLGGDSILSIQLV
+                     ARAAKRGLRLTTRQVFQHQTVAELAAVALAPAAVPVEEGPVVGEVAPTPIQRWFLRQHT
+                     VDPHVFDHSFLLNLAPDADRAVLERALDAMVTHHDALRLRFDGARLVNAPATPGSFRLD
+                     VLSGDDLPREADRLRAGMDLASGCLLKAGFIDAGPAGKRLLLVAHHLGVDAVSWRILLE
+                     DLETAYAQAEAGMPVRLPPRTTSFRAWANALAALPAPTNERAHWLAVRDDAPFPRDRAG
+                     PNTFASQRHRTFSLDEHETQALVQDVARAYRASTHEALLAAFAHAWRQGTGRAEVLVDV
+                     EGHGREDVVPGADLTRTVGWFTSVHPVLLRSDGDDVVASLKAAKEALRGVPGRGLGHGL
+                     LRHVHDDAALAAIGAPQVSFNYLGQLDGTFAGGRLLRGLVQQPKGEDVSPRALRAHALD
+                     VTGSVLAGRLQLTLTWSEDVHAPESIDALARALEDALGELAARCGDPAAGGLTPSDVPL
+                     ARLGQVALDGLVDGRGDVVDVYPLTPLQEGMLFHALYESGSDVYVEQMSAILDGTLDAG
+                     AFEAAWQDVAARHAILRTSFEWQGLDRPLQLVHKQGTIPVVRMDWSRLGAREQEARLAA
+                     YLEADRAKGFHLDALPLVRIAVARLSATSHRFVWTFHHALLDGWSMPVLLGEVFAAHAA
+                     RANGEAPRLAAPFAFRDHVAWLAARDAGAAEAYWRGALRGVRAATPLVVDHPADPRVAP
+                     GGGEVETRLPHATTERLRTLARENRLTLGTVVAGAWAALLARYTGEDDVVFGATVSGRP
+                     PELPGIESAVGLFINTVPLRARVPQDGPTLAWLAALQEQQVRAREFEHVPLARIQGWSD
+                     VPRGRPLVESLLVFENYPVEAARGDDGLSIRDVRAFERTSFPVTVIAGLADALVLRITY
+                     DKRRLDHDAAERMLDHLATVLQGIADDPHQPVGDLPLLAPGERAAREPAPHTPVRCIHE
+                     LFADQAARTPDQVALTCEGANLTYAELEGRANALARRLKRLGVVPGTRVALLLERSLDL
+                     VVGVLAVLKAGGAHVPLDPAYPQERLAFMFRDCGARILVTHGALRIEGPTHVVHADDPG
+                     LADDPGTGVEGGAKPSDLAYVIYTSGSTGQPKGVLVEHAQVARLFSSTDAWFGFHGRDV
+                     WTLFHSYAFDFSVWEMWGALLYGGRLVIVPHAVARDAAAFHDLLAREGVTVLNQTPSAF
+                     AQLARVDEGHGPNELALRCIVFGGEALDVGALRSWMERHGDDAPRLVNMYGITETTVHV
+                     TYRRIRRADADVVGVSPIGEPIPDLTLDVLDARGRRVPVGVPGELYVGGAGVARGYLDR
+                     PELTAARFLHIGKRRVYRTGDLAKRLPDGDIAYLGRIDDQVKIRGFRIELDEVSSVLLR
+                     HDGVREAVVLAREDAPGERRLVAYVVPRAEAPSAGDLREHLLRSLPDHMIPAAFVRLDG
+                     LPLTSNGKVDRKALPAPESARPDLGVDYAEPRTPVEQALALAWREALRIERVGLHDNFF
+                     ALGGDSLTSIRATLAAAAHGVPMRPKQLFERQTIAELAPLFEPGATPPPASHPCLVPIS
+                     RAGQGTPLFFVHPGGGTVGCYVHLARDLGQDRPFYGVQALGADDDRHEPHTSLQEMAAT
+                     YIDAVRSVQPQGPYRLGGWSLGGMIAYEMARQLEAAGEAVALLALVEPGLPPPHAPRDA
+                     ISALAKRIDALAAEARSRPADARDLAALRDDMSRLLMEFGAPPEFAEVGLDQLRRYAKV
+                     FDAQMAAGLSYTPRPYRGRVLLLVSEQALRRHPDVPDQWRPYVGQVDVAPVRGDHWSLM
+                     LSPDDRQVLAHALRDAMASSDGPVLQEVLR"
+                     /sec_met="Type: nrps"
+                     /sec_met="Domains detected: Condensation (E-value: 1.3e-77,
+                     bitscore: 251.2, seeds: 42); AMP-binding (E-value:
+                     9.9e-123, bitscore: 400.0, seeds: 400); PP-binding
+                     (E-value: 1.2e-15, bitscore: 48.3, seeds: 164)"
+                     /sec_met="Kind: biosynthetic"
+     PFAM_domain     complement(12112..12810)
+                     /note="Pfam-A.hmm-Hit: Abhydrolase_6. Score: 51.6. E-value:
+                     1.1e-13. Domain range: 0..223."
+                     /note="ClusterFinder probability: 0.998636241595"
+                     /locus_tag="ctg1_14"
+                     /description="Alpha/beta hydrolase family"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.10E-13"
+                     /domain="Abhydrolase_6"
+                     /asDomain_id="fullhmmer_ctg1_14_0012"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF12697"
+                     /score="51.6"
+                     /aSTool="fullhmmer"
+                     /translation="LFFVHPGGGTVGCYVHLARDLGQDRPFYGVQALGADDDRHEPHTS
+                     LQEMAATYIDAVRSVQPQGPYRLGGWSLGGMIAYEMARQLEAAGEAVALLALVEPGLPP
+                     PHAPRDAISALAKRIDALAAEARSRPADARDLAALRDDMSRLLMEFGAPPEFAEVGLDQ
+                     LRRYAKVFDAQMAAGLSYTPRPYRGRVLLLVSEQALRRHPDVPDQWRPYVGQVDVAPVR
+                     GDHWSLMLSPD"
+                     /label="ctg1_14"
+     PFAM_domain     complement(12124..12813)
+                     /note="Pfam-A.hmm-Hit: Thioesterase. Score: 116.1. E-value:
+                     2.7e-33. Domain range: 1..214."
+                     /note="ClusterFinder probability: 0.999755408973"
+                     /locus_tag="ctg1_14"
+                     /description="Thioesterase domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="2.70E-33"
+                     /domain="Thioesterase"
+                     /asDomain_id="fullhmmer_ctg1_14_0008"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF00975"
+                     /score="116.1"
+                     /aSTool="fullhmmer"
+                     /translation="PLFFVHPGGGTVGCYVHLARDLGQDRPFYGVQALGADDDRHEPHT
+                     SLQEMAATYIDAVRSVQPQGPYRLGGWSLGGMIAYEMARQLEAAGEAVALLALVEPGLP
+                     PPHAPRDAISALAKRIDALAAEARSRPADARDLAALRDDMSRLLMEFGAPPEFAEVGLD
+                     QLRRYAKVFDAQMAAGLSYTPRPYRGRVLLLVSEQALRRHPDVPDQWRPYVGQVDVAPV
+                     RGDHWSLM"
+                     /label="ctg1_14"
+     PFAM_domain     complement(12895..13071)
+                     /note="Pfam-A.hmm-Hit: PP-binding. Score: 29.7. E-value:
+                     5.5e-07. Domain range: 2..64."
+                     /note="ClusterFinder probability: 0.999833921378"
+                     /locus_tag="ctg1_14"
+                     /description="Phosphopantetheine attachment site"
+                     /database="Pfam-A.hmm"
+                     /evalue="5.50E-07"
+                     /domain="PP-binding"
+                     /asDomain_id="fullhmmer_ctg1_14_0011"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF00550"
+                     /score="29.7"
+                     /aSTool="fullhmmer"
+                     /translation="LALAWREALRIERVGLHDNFFALGGDSLTSIRATLAAAAHGVPMR
+                     PKQLFERQTIAELA"
+                     /label="ctg1_14"
+     PFAM_domain     complement(13162..13386)
+                     /note="Pfam-A.hmm-Hit: AMP-binding_C. Score: 63.0. E-value:
+                     3.7e-17. Domain range: 0..73."
+                     /note="ClusterFinder probability: 0.997705911073"
+                     /locus_tag="ctg1_14"
+                     /description="AMP-binding enzyme C-terminal domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="3.70E-17"
+                     /domain="AMP-binding_C"
+                     /asDomain_id="fullhmmer_ctg1_14_0007"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13193"
+                     /score="63.0"
+                     /aSTool="fullhmmer"
+                     /translation="EVSSVLLRHDGVREAVVLAREDAPGERRLVAYVVPRAEAPSAGDL
+                     REHLLRSLPDHMIPAAFVRLDGLPLTSNGK"
+                     /label="ctg1_14"
+     PFAM_domain     complement(13408..14598)
+                     /note="Pfam-A.hmm-Hit: AMP-binding. Score: 373.8. E-value:
+                     6.9e-112. Domain range: 0..417."
+                     /note="ClusterFinder probability: 0.999760396363"
+                     /locus_tag="ctg1_14"
+                     /description="AMP-binding enzyme"
+                     /database="Pfam-A.hmm"
+                     /evalue="6.90E-112"
+                     /domain="AMP-binding"
+                     /asDomain_id="fullhmmer_ctg1_14_0002"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF00501"
+                     /score="373.8"
+                     /aSTool="fullhmmer"
+                     /translation="FADQAARTPDQVALTCEGANLTYAELEGRANALARRLKRLGVVPG
+                     TRVALLLERSLDLVVGVLAVLKAGGAHVPLDPAYPQERLAFMFRDCGARILVTHGALRI
+                     EGPTHVVHADDPGLADDPGTGVEGGAKPSDLAYVIYTSGSTGQPKGVLVEHAQVARLFS
+                     STDAWFGFHGRDVWTLFHSYAFDFSVWEMWGALLYGGRLVIVPHAVARDAAAFHDLLAR
+                     EGVTVLNQTPSAFAQLARVDEGHGPNELALRCIVFGGEALDVGALRSWMERHGDDAPRL
+                     VNMYGITETTVHVTYRRIRRADADVVGVSPIGEPIPDLTLDVLDARGRRVPVGVPGELY
+                     VGGAGVARGYLDRPELTAARFLHIGKRRVYRTGDLAKRLPDGDIAYLGRIDDQVKIR"
+                     /label="ctg1_14"
+     PFAM_domain     complement(15067..15960)
+                     /note="Pfam-A.hmm-Hit: Condensation. Score: 228.6. E-value:
+                     7.3e-68. Domain range: 2..299."
+                     /note="ClusterFinder probability: 0.999887132239"
+                     /locus_tag="ctg1_14"
+                     /description="Condensation domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="7.30E-68"
+                     /domain="Condensation"
+                     /asDomain_id="fullhmmer_ctg1_14_0005"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF00668"
+                     /score="228.6"
+                     /aSTool="fullhmmer"
+                     /translation="DVYPLTPLQEGMLFHALYESGSDVYVEQMSAILDGTLDAGAFEAA
+                     WQDVAARHAILRTSFEWQGLDRPLQLVHKQGTIPVVRMDWSRLGAREQEARLAAYLEAD
+                     RAKGFHLDALPLVRIAVARLSATSHRFVWTFHHALLDGWSMPVLLGEVFAAHAARANGE
+                     APRLAAPFAFRDHVAWLAARDAGAAEAYWRGALRGVRAATPLVVDHPADPRVAPGGGEV
+                     ETRLPHATTERLRTLARENRLTLGTVVAGAWAALLARYTGEDDVVFGATVSGRPPELPG
+                     IESAVGLFINTVPLRAR"
+                     /label="ctg1_14"
+     PFAM_domain     complement(16459..17307)
+                     /note="Pfam-A.hmm-Hit: Condensation. Score: 164.5. E-value:
+                     2.4e-48. Domain range: 2..299."
+                     /note="ClusterFinder probability: 0.999960629223"
+                     /locus_tag="ctg1_14"
+                     /description="Condensation domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="2.40E-48"
+                     /domain="Condensation"
+                     /asDomain_id="fullhmmer_ctg1_14_0004"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF00668"
+                     /score="164.5"
+                     /aSTool="fullhmmer"
+                     /translation="GEVAPTPIQRWFLRQHTVDPHVFDHSFLLNLAPDADRAVLERALD
+                     AMVTHHDALRLRFDGARLVNAPATPGSFRLDVLSGDDLPREADRLRAGMDLASGCLLKA
+                     GFIDAGPAGKRLLLVAHHLGVDAVSWRILLEDLETAYAQAEAGMPVRLPPRTTSFRAWA
+                     NALAALPAPTNERAHWLAVRDDAPFPRDRAGPNTFASQRHRTFSLDEHETQALVQDVAR
+                     AYRASTHEALLAAFAHAWRQGTGRAEVLVDVEGHGREDVVPGADLTRTVGWFTSVHPVL
+                     LR"
+                     /label="ctg1_14"
+     PFAM_domain     complement(17356..17538)
+                     /note="Pfam-A.hmm-Hit: PP-binding. Score: 47.9. E-value:
+                     1.1e-12. Domain range: 1..65."
+                     /note="ClusterFinder probability: 0.999841999558"
+                     /locus_tag="ctg1_14"
+                     /description="Phosphopantetheine attachment site"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.10E-12"
+                     /domain="PP-binding"
+                     /asDomain_id="fullhmmer_ctg1_14_0010"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF00550"
+                     /score="47.9"
+                     /aSTool="fullhmmer"
+                     /translation="TLADVWAEVLGVPRVGIHENFFQLGGDSILSIQLVARAAKRGLRL
+                     TTRQVFQHQTVAELAA"
+                     /label="ctg1_14"
+     PFAM_domain     complement(17614..17841)
+                     /note="Pfam-A.hmm-Hit: AMP-binding_C. Score: 53.7. E-value:
+                     3e-14. Domain range: 0..73."
+                     /note="ClusterFinder probability: 0.997749736266"
+                     /locus_tag="ctg1_14"
+                     /description="AMP-binding enzyme C-terminal domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="3.00E-14"
+                     /domain="AMP-binding_C"
+                     /asDomain_id="fullhmmer_ctg1_14_0006"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13193"
+                     /score="53.7"
+                     /aSTool="fullhmmer"
+                     /translation="EVEATLGAHPDVRECLVDAREDVPGRKRLIAWVVPRAGANVSAQG
+                     LRAFLQERLPEHMVPGAFVPLDAMPLMPSGK"
+                     /label="ctg1_14"
+     PFAM_domain     complement(17863..19029)
+                     /note="Pfam-A.hmm-Hit: AMP-binding. Score: 354.0. E-value:
+                     7.3e-106. Domain range: 1..417."
+                     /note="ClusterFinder probability: 0.99975273493"
+                     /locus_tag="ctg1_14"
+                     /description="AMP-binding enzyme"
+                     /database="Pfam-A.hmm"
+                     /evalue="7.30E-106"
+                     /domain="AMP-binding"
+                     /asDomain_id="fullhmmer_ctg1_14_0001"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF00501"
+                     /score="354.0"
+                     /aSTool="fullhmmer"
+                     /translation="EAAAARAPQAVALATDGGKLTYGELDARANRLAHHLARHGAARGT
+                     LVGVCVEKGPDLVVSLLATLKTGAAYVPLDAAYPPERLAFMLADARLALVIADAGGAKA
+                     LPERGARLVRPDAPEAMLEPAGPLDVPGSADDPAYVMYTSGSTGRPKGVVVPHRGIVRL
+                     VMGVDYWTFGPDEAIGFLSTVSFDAATLEVWGALAHGARLVVPPPRQLSFQELGDLLHR
+                     HLVTTVLLTTPLFHAMVDENPAGLRGLKQLIAGGDALSPRHAERALRALPGVRIVNGYG
+                     PTENTTLVTCHVVDAPPAERVPIGRPIANTRAYVLDRHLQPVPVGVAGELYAAGDGLAL
+                     GYLHRPDLTAERFVARAGERLYRTGDLARRLPDGTLDFLGRVDRQIKVR"
+                     /label="ctg1_14"
+     PFAM_domain     complement(19192..19461)
+                     /note="Pfam-A.hmm-Hit: HxxPF_rpt. Score: 79.4. E-value:
+                     1.8e-22. Domain range: 0..91."
+                     /note="ClusterFinder probability: 0.99876990009"
+                     /locus_tag="ctg1_14"
+                     /description="HxxPF-repeated domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.80E-22"
+                     /domain="HxxPF_rpt"
+                     /asDomain_id="fullhmmer_ctg1_14_0009"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13745"
+                     /score="79.4"
+                     /aSTool="fullhmmer"
+                     /translation="DHQAVPFDVLVSALRPERDPARNPFCQALFTFDDRPATPPAGPLR
+                     LEPHHPPLDVAKFDLTLSLRADGEGAQAWLEYDTDLFDDATAGRM"
+                     /label="ctg1_14"
+     PFAM_domain     complement(19525..20388)
+                     /note="Pfam-A.hmm-Hit: Condensation. Score: 251.2. E-value:
+                     9.5e-75. Domain range: 3..300."
+                     /note="ClusterFinder probability: 0.999956408067"
+                     /locus_tag="ctg1_14"
+                     /description="Condensation domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="9.50E-75"
+                     /domain="Condensation"
+                     /asDomain_id="fullhmmer_ctg1_14_0003"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF00668"
+                     /score="251.2"
+                     /aSTool="fullhmmer"
+                     /translation="EFPLSFAQQRLWFLDQWRPGTPLYNVPAAYRIRQPLDVARLRAAL
+                     DAIAHRHEVLRTTFAADTDGKPVQVVHPPGPFPFTLADAATWEEAESLAKKEAHRPFDL
+                     AHDRPCRAVLVRLAPDDHVLVLTFHHAAFDGWSLDLFVGELAALYGGTDLPGLPIQYAD
+                     YAVWQREQLASGAWDAHVEAWRAMLRDISPLDVPTDRPRPAVQAHRGARRTVRIAADDL
+                     QALRAIAKREGATPFMVLLAAWHAVLHRHAGQDDIAVGIPTSGREQGEAQGLLGFFVNT
+                     LVVRADL"
+                     /label="ctg1_14"
+     CDS             complement(20397..31043)
+                     /note="smCOG:
+                     SMCOG1127:condensation_domain-containing_protein (Score:
+                     369.8; E-value: 3.8e-112);"
+                     /note="smCOG tree PNG image: smcogs/ctg1_15.png"
+                     /locus_tag="ctg1_15"
+                     /translation="LVEAEASVSAGAVPGQRPLSAAKAALLDLWKKGKPAASPVVPQVI
+                     PRATDRGVLSFAQQRLWFLHRLDPASPAYSMLVVRRLRGVVDEAALDRALVEVVRRHEV
+                     LRTTLVADAQGAPRAVVHEAPSTLLVPRDVASEADLRALLDEEARVPLDLEQGPILRAR
+                     LYRLAPRERVLLVAVHHAAFDEASEMVLDRELSATYAAFIAGRPSPLPDLPVQYADFAQ
+                     WQRGRSAGPAFDRELAQWRQRLEGTAPLELPTDRPRAPAQTFAGRTLAFRIDAATAEAL
+                     RALCRAEAVTPYMAILAAFQVALHRHAGQEDFAVASPISARTRPELEALAGFFVNTLVL
+                     RADLSGGPTFRDLLARVKATCLAAYASPEVPFERLVEELHPVRDPSRAPLAQAFYAHQN
+                     GIEHRLVLPGVEVVPEWLFTPTSKWDLSLFTLDEPDGIRCWLEHSTDLWDEETGERFAR
+                     RFQLLVASLARDPAQSIADAPLLPDDEARLLAAWHGPAAEVPRACVQDLVAEQARRTPG
+                     RLAVSCGDERLTYAALDARARAVAAHLRARGAGRGTVVALLTERSADMVAALLGILRSG
+                     AAYLPLDPSYPAERLAYMLQDSGARLLLTSASLARSLPAHQADAVLLDDMPSEPSESGK
+                     PSESGKPSESGKPRASGKPGKRTPEVPADDALTPEDLAYVIYTSGSTGRPKGTRIPHRA
+                     LSNFLHDMRTRLGVVPDDRWLSVTTLSFDIAGLEVYLPLLAGATVDVATADEARDPTLL
+                     LARMRDATILQATPAAWRMLLDSGWGADGADVRLRKALSGGEALPPVVARGLQARADEV
+                     WNLYGPTETTIWSTAHRLDPRDARVPIGRPIANTRAHVVDARMRPVPVGVPGELLLGGA
+                     GLAEGYHARPELTAERFPAWNGERVYRTGDRVRWLADGTLEHLGRLDRQVKVRGHRVEL
+                     GEVEAALLEHVREAAVVVRHDALVAYVVPREDDAPAVTPEAAKAVVDAWRPVFDARADD
+                     AVADPTFDTGVWTSSHTGLPIPREEMQEWVGATVERIKSLHPRRVLEIGCGTGLLLWRV
+                     APLCEVYDGTDLSGATLARLRQALDARGVTNVRLHEREATDFAGLDDTYDVVVLNSVVQ
+                     YFPDAEHLARVLEQAAARVKEGAILVGDVRSLPLQRAFHASVERARAGRELSPEELERR
+                     VDARAAADAELVLHPAFFDGLRTRIPALRAVRVLLRAGRHHNEMAAYRYDVVLHVGTAP
+                     PSIPVSTWSPWPGGDAFRKLLAERPPALALAAIPNARLGAGDEGIEPDDVVADARAAGY
+                     EAELSWAAARADGSFDAVVAPGDAPPVADVPRPPAPRIVASEPLRARARRERRRALPAE
+                     LRTRLAERLPAAMVPASFVVLDAMPLTPNGKVDRNALPALDAGRAMRADAFVAPRTPEE
+                     EAIARVWCDLLGLDKVGVHDGFFALGGHSLLAAQMVARLRDSLGVEIPLRAVFERPTIE
+                     ALASLRAAPAQAPLEPLADRDGVPLSPGQGRLWFLHQLDPASPAYNVALALRLRGPLRV
+                     AQLQRALDGVAARHEALRTVVARVDGAPVQRILTPGTVPLRVVEARDERHARTLVQDAA
+                     HEPFDLARGPLFRAALARIAAEDHLLVLCAHHIVFDEGSERALLRDLAALYEEAPLAPV
+                     ALQQGDLTERERGRDVEAAIRRTRERLAGLDAAEVPTDRARPPVQTFRGDSVSFDLPAQ
+                     DLRALARSGDATLFMALVAGCQAFLRRHGGSDDVALGAPSAGRDGPGAADVVGFFVNML
+                     VLRTDLSGDPTVREVVLRAKAACLAAYADEAAPFERVVKAMGAAHDLGRTPLFQAALVL
+                     QHAPAPLRLPGLRVDREPIVSRIAKFDLTVWVAEEADRLRVTLEANADLFETARIQRMA
+                     RDLEAVLRAIAATPDARLSALPVPDDEAPAWSGRTRAPDGRTVPALFAEQVARTPDKVA
+                     VVAGEGTLTYAVLDARAAALAASLQAHGIGPGATVGVCLERSADAVVALLGVLKAGGAY
+                     VPLDPGHPDERIAFALRDAGARVLVTRSAMRDRMAGLGAPLVLVDAPEPDGPLAPVPTR
+                     PDDLAYVMYTSGSTGTPKGVMVSHRAIVRLVTGQDYIRFGPDETFLQYAPLAFDAATFE
+                     VWGALLHGARLVVAPPRSLAAHELGAVLQTQGITTLWLTAPLFHVMVDEAVDGLRGVRQ
+                     LIAGGDALSPSHVRRTLAALPDLRLVNGYGPTECTTFACCHPVTGPPGERVPIGRPLVG
+                     TRALVLDLDGRPVPVGAPGELYLGGDGLANGYVGAPGLTAQRFVERAGERLYRTGDRAR
+                     WRNDGALEFLGRLDQQVKIRGHRVEPGEVEAALAAHPDVAEAAVIARSDAHGGRRLVAY
+                     VVGVRGAPTPDAQALRDHVRRRLPDAFVPSAVVALDALPLTPNAKVDRRALPDPAHDED
+                     RAYVAPEGPVEEILAGLVAQTLGTGRVGAADDFFVLGADSILATRLVARVRQAFDVDLP
+                     LPAVFEAPTVRGLAHALSVQQGSQGLPPIPPIVPTPGPDGPLSFGQQRLWFLQQWRPDS
+                     PAYNNPGAFRLRGPLDVAALEAALDGLVQRHEVLRTIYPAPDGQPVQRVLPHAPFHLEV
+                     VDVPGEEDVLPLARDQAARAFDLAREAPFRARLARLAPDDHVLLLTFHHVAFDGWSVGV
+                     LFRDLSELYAACVEGRAPRLPALPVRYVDVARWQRAHMAHLGPQLAAWRERLAGLRPLD
+                     LPADRARPAAPTLRGHDTPLAIPARLARALEELARREGVTLYMVLLAAWATLLHRHART
+                     DDVAVGTPVAGRRAPEVGGLVGFFVNTLVLRTDLSGDPTFRELLARVRRTCLDAYANQD
+                     VPFERLVEELHVERDPSRAPLVQVLFALQERVAPAFAESGLRVEELPVATGAAKVDMSL
+                     SLAPEGDELRGAIEASADLFDEATARRYADRFLALLEGIVADPAAPIARLPWMAASERD
+                     MTVRAWNATEAPFPRDLLLHQLFEGRADHVPDGVAIEEEGRAITYRDLDESANRLAHRL
+                     QRLGARPEAIVALHLDRSIEAYVAILGILKAGAAFLPLDPSHPRERLERTLADAGARLV
+                     VTRSGLQGSLPAGEAAAASIVLVDDPALAAEPTVRPRSGATPTGLAYVIYTSGSTGRPK
+                     GVLIEHRGAVNFATGFAARVGAGPRARLLQMSPLGVDMVVAELALSLLDGGTLILAPAD
+                     QCVGEPLRDTLARRRVTALLATPGVLATAAPTDLPLLRTVMSGADACPAHVAAGWSVGR
+                     RMMNGYGPTEISVCCAVADCPSGVPAAPPLGRPLPNTRLYVLDTRGEPVPIGVPGELHV
+                     GGVGVARGYLGRPDLTAERFVPDPFSGEPGARMYRTGDHCRFLPDGQVEFLGRIDAQVK
+                     VRGFRIEPGEVEACLRAHPKVRDAVVVAREDRLVAYVVGDAAAGELREHARATLPEPMV
+                     PALYVPIAEVPLSRTGKVDRSALPAPGATALPAAGYVAPQGTVEEALSRLWSSLLGVPR
+                     VGAKDGFFELGGHSLLVPRLVARVRSEMSADLPLSAVFEAPTLHALARRIEAAQVTGTP
+                     VLAPAGIKRIDRTRYQQQEART"
+                     /sec_met="Type: nrps"
+                     /sec_met="Domains detected: Condensation (E-value: 2.1e-73,
+                     bitscore: 237.3, seeds: 42); AMP-binding (E-value:
+                     9.7e-122, bitscore: 396.8, seeds: 400); PP-binding
+                     (E-value: 1.1e-16, bitscore: 51.6, seeds: 164)"
+                     /sec_met="Kind: biosynthetic"
+     PFAM_domain     complement(20493..20684)
+                     /note="Pfam-A.hmm-Hit: PP-binding. Score: 37.1. E-value:
+                     2.6e-09. Domain range: 1..67."
+                     /note="ClusterFinder probability: 0.999539369991"
+                     /locus_tag="ctg1_15"
+                     /description="Phosphopantetheine attachment site"
+                     /database="Pfam-A.hmm"
+                     /evalue="2.60E-09"
+                     /domain="PP-binding"
+                     /asDomain_id="fullhmmer_ctg1_15_0015"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF00550"
+                     /score="37.1"
+                     /aSTool="fullhmmer"
+                     /translation="ALSRLWSSLLGVPRVGAKDGFFELGGHSLLVPRLVARVRSEMSAD
+                     LPLSAVFEAPTLHALARRI"
+                     /label="ctg1_15"
+     PFAM_domain     complement(20769..20969)
+                     /note="Pfam-A.hmm-Hit: AMP-binding_C. Score: 51.1. E-value:
+                     1.9e-13. Domain range: 0..73."
+                     /note="ClusterFinder probability: 0.992772345313"
+                     /locus_tag="ctg1_15"
+                     /description="AMP-binding enzyme C-terminal domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.90E-13"
+                     /domain="AMP-binding_C"
+                     /asDomain_id="fullhmmer_ctg1_15_0012"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13193"
+                     /score="51.1"
+                     /aSTool="fullhmmer"
+                     /translation="EVEACLRAHPKVRDAVVVAREDRLVAYVVGDAAAGELREHARATL
+                     PEPMVPALYVPIAEVPLSRTGK"
+                     /label="ctg1_15"
+     PFAM_domain     complement(20991..22169)
+                     /note="Pfam-A.hmm-Hit: AMP-binding. Score: 333.2. E-value:
+                     1.5e-99. Domain range: 0..417."
+                     /note="ClusterFinder probability: 0.999747468307"
+                     /locus_tag="ctg1_15"
+                     /description="AMP-binding enzyme"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.50E-99"
+                     /domain="AMP-binding"
+                     /asDomain_id="fullhmmer_ctg1_15_0003"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF00501"
+                     /score="333.2"
+                     /aSTool="fullhmmer"
+                     /translation="FEGRADHVPDGVAIEEEGRAITYRDLDESANRLAHRLQRLGARPE
+                     AIVALHLDRSIEAYVAILGILKAGAAFLPLDPSHPRERLERTLADAGARLVVTRSGLQG
+                     SLPAGEAAAASIVLVDDPALAAEPTVRPRSGATPTGLAYVIYTSGSTGRPKGVLIEHRG
+                     AVNFATGFAARVGAGPRARLLQMSPLGVDMVVAELALSLLDGGTLILAPADQCVGEPLR
+                     DTLARRRVTALLATPGVLATAAPTDLPLLRTVMSGADACPAHVAAGWSVGRRMMNGYGP
+                     TEISVCCAVADCPSGVPAAPPLGRPLPNTRLYVLDTRGEPVPIGVPGELHVGGVGVARG
+                     YLGRPDLTAERFVPDPFSGEPGARMYRTGDHCRFLPDGQVEFLGRIDAQVKVR"
+                     /label="ctg1_15"
+     PFAM_domain     complement(22332..22601)
+                     /note="Pfam-A.hmm-Hit: HxxPF_rpt. Score: 91.3. E-value:
+                     3.4e-26. Domain range: 0..90."
+                     /note="ClusterFinder probability: 0.986203493156"
+                     /locus_tag="ctg1_15"
+                     /description="HxxPF-repeated domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="3.40E-26"
+                     /domain="HxxPF_rpt"
+                     /asDomain_id="fullhmmer_ctg1_15_0009"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13745"
+                     /score="91.3"
+                     /aSTool="fullhmmer"
+                     /translation="ANQDVPFERLVEELHVERDPSRAPLVQVLFALQERVAPAFAESGL
+                     RVEELPVATGAAKVDMSLSLAPEGDELRGAIEASADLFDEATARR"
+                     /label="ctg1_15"
+     PFAM_domain     complement(22665..23531)
+                     /note="Pfam-A.hmm-Hit: Condensation. Score: 237.3. E-value:
+                     1.6e-70. Domain range: 5..300."
+                     /note="ClusterFinder probability: 0.999721956154"
+                     /locus_tag="ctg1_15"
+                     /description="Condensation domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.60E-70"
+                     /domain="Condensation"
+                     /asDomain_id="fullhmmer_ctg1_15_0006"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF00668"
+                     /score="237.3"
+                     /aSTool="fullhmmer"
+                     /translation="PLSFGQQRLWFLQQWRPDSPAYNNPGAFRLRGPLDVAALEAALDG
+                     LVQRHEVLRTIYPAPDGQPVQRVLPHAPFHLEVVDVPGEEDVLPLARDQAARAFDLARE
+                     APFRARLARLAPDDHVLLLTFHHVAFDGWSVGVLFRDLSELYAACVEGRAPRLPALPVR
+                     YVDVARWQRAHMAHLGPQLAAWRERLAGLRPLDLPADRARPAAPTLRGHDTPLAIPARL
+                     ARALEELARREGVTLYMVLLAAWATLLHRHARTDDVAVGTPVAGRRAPEVGGLVGFFVN
+                     TLVLRTDL"
+                     /label="ctg1_15"
+     PFAM_domain     complement(23604..23789)
+                     /note="Pfam-A.hmm-Hit: PP-binding. Score: 46.7. E-value:
+                     2.7e-12. Domain range: 2..66."
+                     /note="ClusterFinder probability: 0.999863176963"
+                     /locus_tag="ctg1_15"
+                     /description="Phosphopantetheine attachment site"
+                     /database="Pfam-A.hmm"
+                     /evalue="2.70E-12"
+                     /domain="PP-binding"
+                     /asDomain_id="fullhmmer_ctg1_15_0014"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF00550"
+                     /score="46.7"
+                     /aSTool="fullhmmer"
+                     /translation="LAGLVAQTLGTGRVGAADDFFVLGADSILATRLVARVRQAFDVDL
+                     PLPAVFEAPTVRGLAHA"
+                     /label="ctg1_15"
+     PFAM_domain     complement(23871..24101)
+                     /note="Pfam-A.hmm-Hit: AMP-binding_C. Score: 70.5. E-value:
+                     1.6e-19. Domain range: 0..73."
+                     /note="ClusterFinder probability: 0.988351169005"
+                     /locus_tag="ctg1_15"
+                     /description="AMP-binding enzyme C-terminal domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.60E-19"
+                     /domain="AMP-binding_C"
+                     /asDomain_id="fullhmmer_ctg1_15_0011"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13193"
+                     /score="70.5"
+                     /aSTool="fullhmmer"
+                     /translation="EVEAALAAHPDVAEAAVIARSDAHGGRRLVAYVVGVRGAPTPDAQ
+                     ALRDHVRRRLPDAFVPSAVVALDALPLTPNAK"
+                     /label="ctg1_15"
+     PFAM_domain     complement(24123..25283)
+                     /note="Pfam-A.hmm-Hit: AMP-binding. Score: 363.3. E-value:
+                     1.1e-108. Domain range: 0..417."
+                     /note="ClusterFinder probability: 0.999675770051"
+                     /locus_tag="ctg1_15"
+                     /description="AMP-binding enzyme"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.10E-108"
+                     /domain="AMP-binding"
+                     /asDomain_id="fullhmmer_ctg1_15_0002"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF00501"
+                     /score="363.3"
+                     /aSTool="fullhmmer"
+                     /translation="FAEQVARTPDKVAVVAGEGTLTYAVLDARAAALAASLQAHGIGPG
+                     ATVGVCLERSADAVVALLGVLKAGGAYVPLDPGHPDERIAFALRDAGARVLVTRSAMRD
+                     RMAGLGAPLVLVDAPEPDGPLAPVPTRPDDLAYVMYTSGSTGTPKGVMVSHRAIVRLVT
+                     GQDYIRFGPDETFLQYAPLAFDAATFEVWGALLHGARLVVAPPRSLAAHELGAVLQTQG
+                     ITTLWLTAPLFHVMVDEAVDGLRGVRQLIAGGDALSPSHVRRTLAALPDLRLVNGYGPT
+                     ECTTFACCHPVTGPPGERVPIGRPLVGTRALVLDLDGRPVPVGAPGELYLGGDGLANGY
+                     VGAPGLTAQRFVERAGERLYRTGDRARWRNDGALEFLGRLDQQVKIR"
+                     /label="ctg1_15"
+     PFAM_domain     complement(25425..25685)
+                     /note="Pfam-A.hmm-Hit: HxxPF_rpt. Score: 74.8. E-value:
+                     5e-21. Domain range: 3..91."
+                     /note="ClusterFinder probability: 0.988464855557"
+                     /locus_tag="ctg1_15"
+                     /description="HxxPF-repeated domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="5.00E-21"
+                     /domain="HxxPF_rpt"
+                     /asDomain_id="fullhmmer_ctg1_15_0008"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13745"
+                     /score="74.8"
+                     /aSTool="fullhmmer"
+                     /translation="AAPFERVVKAMGAAHDLGRTPLFQAALVLQHAPAPLRLPGLRVDR
+                     EPIVSRIAKFDLTVWVAEEADRLRVTLEANADLFETARIQRM"
+                     /label="ctg1_15"
+     PFAM_domain     complement(25758..26600)
+                     /note="Pfam-A.hmm-Hit: Condensation. Score: 192.0. E-value:
+                     9.8e-57. Domain range: 2..300."
+                     /note="ClusterFinder probability: 0.999954876304"
+                     /locus_tag="ctg1_15"
+                     /description="Condensation domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="9.80E-57"
+                     /domain="Condensation"
+                     /asDomain_id="fullhmmer_ctg1_15_0005"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF00668"
+                     /score="192.0"
+                     /aSTool="fullhmmer"
+                     /translation="DGVPLSPGQGRLWFLHQLDPASPAYNVALALRLRGPLRVAQLQRA
+                     LDGVAARHEALRTVVARVDGAPVQRILTPGTVPLRVVEARDERHARTLVQDAAHEPFDL
+                     ARGPLFRAALARIAAEDHLLVLCAHHIVFDEGSERALLRDLAALYEEAPLAPVALQQGD
+                     LTERERGRDVEAAIRRTRERLAGLDAAEVPTDRARPPVQTFRGDSVSFDLPAQDLRALA
+                     RSGDATLFMALVAGCQAFLRRHGGSDDVALGAPSAGRDGPGAADVVGFFVNMLVLRTDL
+                     "
+                     /label="ctg1_15"
+     PFAM_domain     complement(26652..26834)
+                     /note="Pfam-A.hmm-Hit: PP-binding. Score: 51.2. E-value:
+                     1.1e-13. Domain range: 1..64."
+                     /note="ClusterFinder probability: 0.999454185062"
+                     /locus_tag="ctg1_15"
+                     /description="Phosphopantetheine attachment site"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.10E-13"
+                     /domain="PP-binding"
+                     /asDomain_id="fullhmmer_ctg1_15_0013"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF00550"
+                     /score="51.2"
+                     /aSTool="fullhmmer"
+                     /translation="AIARVWCDLLGLDKVGVHDGFFALGGHSLLAAQMVARLRDSLGVE
+                     IPLRAVFERPTIEALA"
+                     /label="ctg1_15"
+     PFAM_domain     complement(26922..27077)
+                     /note="Pfam-A.hmm-Hit: AMP-binding_C. Score: 25.3. E-value:
+                     2.1e-05. Domain range: 29..73."
+                     /note="ClusterFinder probability: 0.986165668896"
+                     /locus_tag="ctg1_15"
+                     /description="AMP-binding enzyme C-terminal domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="2.10E-05"
+                     /domain="AMP-binding_C"
+                     /asDomain_id="fullhmmer_ctg1_15_0010"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13193"
+                     /score="25.3"
+                     /aSTool="fullhmmer"
+                     /translation="VASEPLRARARRERRRALPAELRTRLAERLPAAMVPASFVVLDAM
+                     PLTPNGK"
+                     /label="ctg1_15"
+     PFAM_domain     complement(27549..28007)
+                     /note="Pfam-A.hmm-Hit: Methyltransf_23. Score: 37.3.
+                     E-value: 2.1e-09. Domain range: 2..149."
+                     /note="ClusterFinder probability: 0.986259229078"
+                     /locus_tag="ctg1_15"
+                     /description="Methyltransferase domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="2.10E-09"
+                     /domain="Methyltransf_23"
+                     /asDomain_id="fullhmmer_ctg1_15_0018"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13489"
+                     /score="37.3"
+                     /aSTool="fullhmmer"
+                     /translation="EEMQEWVGATVERIKSLHPRRVLEIGCGTGLLLWRVAPLCEVYDG
+                     TDLSGATLARLRQALDARGVTNVRLHEREATDFAGLDDTYDVVVLNSVVQYFPDAEHLA
+                     RVLEQAAARVKEGAILVGDVRSLPLQRAFHASVERARAGRELSPEELER"
+                     /label="ctg1_15"
+     PFAM_domain     complement(27603..27965)
+                     /note="Pfam-A.hmm-Hit: MTS. Score: 20.3. E-value: 0.00027.
+                     Domain range: 27..152."
+                     /note="ClusterFinder probability: 0.999513492117"
+                     /locus_tag="ctg1_15"
+                     /description="Methyltransferase small domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="2.70E-04"
+                     /domain="MTS"
+                     /asDomain_id="fullhmmer_ctg1_15_0023"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF05175"
+                     /score="20.3"
+                     /aSTool="fullhmmer"
+                     /translation="KSLHPRRVLEIGCGTGLLLWRVAPLCEVYDGTDLSGATLARLRQA
+                     LDARGVTNVRLHEREATDFAGLDDTYDVVVLNSVVQYFPDAEHLARVLEQAAARVKEGA
+                     ILVGDVRSLPLQRAFHA"
+                     /label="ctg1_15"
+     PFAM_domain     complement(27633..27947)
+                     /note="Pfam-A.hmm-Hit: Methyltransf_31. Score: 30.9.
+                     E-value: 1.7e-07. Domain range: 5..112."
+                     /note="ClusterFinder probability: 0.985789101013"
+                     /locus_tag="ctg1_15"
+                     /description="Methyltransferase domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.70E-07"
+                     /domain="Methyltransf_31"
+                     /asDomain_id="fullhmmer_ctg1_15_0020"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13847"
+                     /score="30.9"
+                     /aSTool="fullhmmer"
+                     /translation="RVLEIGCGTGLLLWRVAPLCEVYDGTDLSGATLARLRQALDARGV
+                     TNVRLHEREATDFAGLDDTYDVVVLNSVVQYFPDAEHLARVLEQAAARVKEGAILVGDV
+                     R"
+                     /label="ctg1_15"
+     PFAM_domain     complement(27645..27950)
+                     /note="Pfam-A.hmm-Hit: Methyltransf_18. Score: 41.1.
+                     E-value: 2.1e-10. Domain range: 2..108."
+                     /note="ClusterFinder probability: 0.989056333603"
+                     /locus_tag="ctg1_15"
+                     /description="Methyltransferase domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="2.10E-10"
+                     /domain="Methyltransf_18"
+                     /asDomain_id="fullhmmer_ctg1_15_0017"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF12847"
+                     /score="41.1"
+                     /aSTool="fullhmmer"
+                     /translation="RRVLEIGCGTGLLLWRVAPLCEVYDGTDLSGATLARLRQALDARG
+                     VTNVRLHEREATDFAGLDDTYDVVVLNSVVQYFPDAEHLARVLEQAAARVKEGAILV"
+                     /label="ctg1_15"
+     PFAM_domain     complement(27645..27950)
+                     /note="Pfam-A.hmm-Hit: Methyltransf_26. Score: 25.7.
+                     E-value: 8.6e-06. Domain range: 1..112."
+                     /note="ClusterFinder probability: 0.992681631829"
+                     /locus_tag="ctg1_15"
+                     /description="Methyltransferase domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="8.60E-06"
+                     /domain="Methyltransf_26"
+                     /asDomain_id="fullhmmer_ctg1_15_0022"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13659"
+                     /score="25.7"
+                     /aSTool="fullhmmer"
+                     /translation="RRVLEIGCGTGLLLWRVAPLCEVYDGTDLSGATLARLRQALDARG
+                     VTNVRLHEREATDFAGLDDTYDVVVLNSVVQYFPDAEHLARVLEQAAARVKEGAILV"
+                     /label="ctg1_15"
+     PFAM_domain     complement(27648..27941)
+                     /note="Pfam-A.hmm-Hit: Methyltransf_12. Score: 45.4.
+                     E-value: 8e-12. Domain range: 0..99."
+                     /note="ClusterFinder probability: 0.994096597864"
+                     /locus_tag="ctg1_15"
+                     /description="Methyltransferase domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="8.00E-12"
+                     /domain="Methyltransf_12"
+                     /asDomain_id="fullhmmer_ctg1_15_0016"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF08242"
+                     /score="45.4"
+                     /aSTool="fullhmmer"
+                     /translation="LEIGCGTGLLLWRVAPLCEVYDGTDLSGATLARLRQALDARGVTN
+                     VRLHEREATDFAGLDDTYDVVVLNSVVQYFPDAEHLARVLEQAAARVKEGAIL"
+                     /label="ctg1_15"
+     PFAM_domain     complement(27648..27941)
+                     /note="Pfam-A.hmm-Hit: Methyltransf_11. Score: 36.2.
+                     E-value: 6.2e-09. Domain range: 0..93."
+                     /note="ClusterFinder probability: 0.985689475843"
+                     /locus_tag="ctg1_15"
+                     /description="Methyltransferase domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="6.20E-09"
+                     /domain="Methyltransf_11"
+                     /asDomain_id="fullhmmer_ctg1_15_0019"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF08241"
+                     /score="36.2"
+                     /aSTool="fullhmmer"
+                     /translation="LEIGCGTGLLLWRVAPLCEVYDGTDLSGATLARLRQALDARGVTN
+                     VRLHEREATDFAGLDDTYDVVVLNSVVQYFPDAEHLARVLEQAAARVKEGAIL"
+                     /label="ctg1_15"
+     PFAM_domain     complement(27657..27944)
+                     /note="Pfam-A.hmm-Hit: Methyltransf_25. Score: 25.0.
+                     E-value: 1.8e-05. Domain range: 0..100."
+                     /note="ClusterFinder probability: 0.988115437076"
+                     /locus_tag="ctg1_15"
+                     /description="Methyltransferase domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.80E-05"
+                     /domain="Methyltransf_25"
+                     /asDomain_id="fullhmmer_ctg1_15_0021"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13649"
+                     /score="25.0"
+                     /aSTool="fullhmmer"
+                     /translation="VLEIGCGTGLLLWRVAPLCEVYDGTDLSGATLARLRQALDARGVT
+                     NVRLHEREATDFAGLDDTYDVVVLNSVVQYFPDAEHLARVLEQAAARVKEG"
+                     /label="ctg1_15"
+     PFAM_domain     complement(27663..27944)
+                     /note="Pfam-A.hmm-Hit: NodS. Score: 18.1. E-value: 0.0013.
+                     Domain range: 46..137."
+                     /note="ClusterFinder probability: 0.99999841489"
+                     /locus_tag="ctg1_15"
+                     /description="Nodulation protein S (NodS)"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.30E-03"
+                     /domain="NodS"
+                     /asDomain_id="fullhmmer_ctg1_15_0024"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF05401"
+                     /score="18.1"
+                     /aSTool="fullhmmer"
+                     /translation="VLEIGCGTGLLLWRVAPLCEVYDGTDLSGATLARLRQALDARGVT
+                     NVRLHEREATDFAGLDDTYDVVVLNSVVQYFPDAEHLARVLEQAAARVK"
+                     /label="ctg1_15"
+     PFAM_domain     complement(28272..29519)
+                     /note="Pfam-A.hmm-Hit: AMP-binding. Score: 368.8. E-value:
+                     2.3e-110. Domain range: 1..417."
+                     /note="ClusterFinder probability: 0.99950068161"
+                     /locus_tag="ctg1_15"
+                     /description="AMP-binding enzyme"
+                     /database="Pfam-A.hmm"
+                     /evalue="2.30E-110"
+                     /domain="AMP-binding"
+                     /asDomain_id="fullhmmer_ctg1_15_0001"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF00501"
+                     /score="368.8"
+                     /aSTool="fullhmmer"
+                     /translation="AEQARRTPGRLAVSCGDERLTYAALDARARAVAAHLRARGAGRGT
+                     VVALLTERSADMVAALLGILRSGAAYLPLDPSYPAERLAYMLQDSGARLLLTSASLARS
+                     LPAHQADAVLLDDMPSEPSESGKPSESGKPSESGKPRASGKPGKRTPEVPADDALTPED
+                     LAYVIYTSGSTGRPKGTRIPHRALSNFLHDMRTRLGVVPDDRWLSVTTLSFDIAGLEVY
+                     LPLLAGATVDVATADEARDPTLLLARMRDATILQATPAAWRMLLDSGWGADGADVRLRK
+                     ALSGGEALPPVVARGLQARADEVWNLYGPTETTIWSTAHRLDPRDARVPIGRPIANTRA
+                     HVVDARMRPVPVGVPGELLLGGAGLAEGYHARPELTAERFPAWNGERVYRTGDRVRWLA
+                     DGTLEHLGRLDRQVKVR"
+                     /label="ctg1_15"
+     PFAM_domain     complement(29676..29939)
+                     /note="Pfam-A.hmm-Hit: HxxPF_rpt. Score: 72.0. E-value:
+                     3.6e-20. Domain range: 3..91."
+                     /note="ClusterFinder probability: 0.992962536681"
+                     /locus_tag="ctg1_15"
+                     /description="HxxPF-repeated domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="3.60E-20"
+                     /domain="HxxPF_rpt"
+                     /asDomain_id="fullhmmer_ctg1_15_0007"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13745"
+                     /score="72.0"
+                     /aSTool="fullhmmer"
+                     /translation="EVPFERLVEELHPVRDPSRAPLAQAFYAHQNGIEHRLVLPGVEVV
+                     PEWLFTPTSKWDLSLFTLDEPDGIRCWLEHSTDLWDEETGERF"
+                     /label="ctg1_15"
+     PFAM_domain     complement(30012..30887)
+                     /note="Pfam-A.hmm-Hit: Condensation. Score: 215.5. E-value:
+                     7.2e-64. Domain range: 5..300."
+                     /note="ClusterFinder probability: 0.99995572603"
+                     /locus_tag="ctg1_15"
+                     /description="Condensation domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="7.20E-64"
+                     /domain="Condensation"
+                     /asDomain_id="fullhmmer_ctg1_15_0004"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF00668"
+                     /score="215.5"
+                     /aSTool="fullhmmer"
+                     /translation="VLSFAQQRLWFLHRLDPASPAYSMLVVRRLRGVVDEAALDRALVE
+                     VVRRHEVLRTTLVADAQGAPRAVVHEAPSTLLVPRDVASEADLRALLDEEARVPLDLEQ
+                     GPILRARLYRLAPRERVLLVAVHHAAFDEASEMVLDRELSATYAAFIAGRPSPLPDLPV
+                     QYADFAQWQRGRSAGPAFDRELAQWRQRLEGTAPLELPTDRPRAPAQTFAGRTLAFRID
+                     AATAEALRALCRAEAVTPYMAILAAFQVALHRHAGQEDFAVASPISARTRPELEALAGF
+                     FVNTLVLRADL"
+                     /label="ctg1_15"
+     CDS             31118..32029
+                     /note="smCOG: SMCOG1000:ABC_transporter_ATP-binding_protein
+                     (Score: 197.0; E-value: 6.1e-60);"
+                     /note="smCOG tree PNG image: smcogs/ctg1_16.png"
+                     /locus_tag="ctg1_16"
+                     /translation="VGPDPAPLEVHDLVKRYGDRTAVAGVSFRVERGSIFCLLGENGAG
+                     KTTTLEVAQGLRRPTAGLASLFGVDAQRSTPALRRRMGVLPQRFACFPGLTVRENLRYF
+                     ADVYDARGDGSGLLERLGLAEHADQLVSTLSGGTARRVGVATALVHDPELVFLDEPTAG
+                     VDPASRRRLWDVLLALRDEGKAIVLTTHYMDEAERLADDILVLRKGRTVARGRPSAIRQ
+                     AHGGGAVLRVAGLGDALPPLLAERAGVEREADGAVLVRLADPAEAPLLLAGLLKAGVAL
+                     HEVSVREPTLDDAFLRLSEDDA"
+     PFAM_domain     31190..31603
+                     /note="Pfam-A.hmm-Hit: ABC_tran. Score: 95.1. E-value:
+                     4e-27. Domain range: 2..137."
+                     /note="ClusterFinder probability: 0.942341575165"
+                     /locus_tag="ctg1_16"
+                     /description="ABC transporter"
+                     /database="Pfam-A.hmm"
+                     /evalue="4.00E-27"
+                     /domain="ABC_tran"
+                     /asDomain_id="fullhmmer_ctg1_16_0001"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF00005"
+                     /score="95.1"
+                     /aSTool="fullhmmer"
+                     /translation="GVSFRVERGSIFCLLGENGAGKTTTLEVAQGLRRPTAGLASLFGV
+                     DAQRSTPALRRRMGVLPQRFACFPGLTVRENLRYFADVYDARGDGSGLLERLGLAEHAD
+                     QLVSTLSGGTARRVGVATALVHDPELVFLDEPTA"
+                     /label="ctg1_16"
+     PFAM_domain     31199..31270
+                     /note="Pfam-A.hmm-Hit: AAA_23. Score: 16.8. E-value:
+                     0.0064. Domain range: 16..37."
+                     /note="ClusterFinder probability: 0.803243209595"
+                     /locus_tag="ctg1_16"
+                     /description="AAA domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="6.40E-03"
+                     /domain="AAA_23"
+                     /asDomain_id="fullhmmer_ctg1_16_0005"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13476"
+                     /score="16.8"
+                     /aSTool="fullhmmer"
+                     /translation="FRVERGSIFCLLGENGAGKTTTLE"
+                     /label="ctg1_16"
+     PFAM_domain     31208..31717
+                     /note="Pfam-A.hmm-Hit: AAA_16. Score: 23.7. E-value:
+                     3.8e-05. Domain range: 21..166."
+                     /note="ClusterFinder probability: 0.866527978691"
+                     /locus_tag="ctg1_16"
+                     /description="AAA ATPase domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="3.80E-05"
+                     /domain="AAA_16"
+                     /asDomain_id="fullhmmer_ctg1_16_0003"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13191"
+                     /score="23.7"
+                     /aSTool="fullhmmer"
+                     /translation="ERGSIFCLLGENGAGKTTTLEVAQGLRRPTAGLASLFGVDAQRST
+                     PALRRRMGVLPQRFACFPGLTVRENLRYFADVYDARGDGSGLLERLGLAEHADQLVSTL
+                     SGGTARRVGVATALVHDPELVFLDEPTAGVDPASRRRLWDVLLALRDEGKAIVLTTHYM
+                     DEAERLA"
+                     /label="ctg1_16"
+     PFAM_domain     31511..31693
+                     /note="Pfam-A.hmm-Hit: AAA_21. Score: 34.7. E-value:
+                     1.7e-08. Domain range: 199..298."
+                     /note="ClusterFinder probability: 0.902768472649"
+                     /locus_tag="ctg1_16"
+                     /description="AAA domain"
+                     /database="Pfam-A.hmm"
+                     /evalue="1.70E-08"
+                     /domain="AAA_21"
+                     /asDomain_id="fullhmmer_ctg1_16_0002"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13304"
+                     /score="34.7"
+                     /aSTool="fullhmmer"
+                     /translation="STLSGGTARRVGVATALVHDPELVFLDEPTAGVDPASRRRLWDVL
+                     LALRDEGKAIVLTTHY"
+                     /label="ctg1_16"
+     PFAM_domain     31856..32008
+                     /note="Pfam-A.hmm-Hit: DUF4162. Score: 20.1. E-value:
+                     0.00066. Domain range: 29..82."
+                     /note="ClusterFinder probability: 0.833415272234"
+                     /locus_tag="ctg1_16"
+                     /description="Domain of unknown function (DUF4162)"
+                     /database="Pfam-A.hmm"
+                     /evalue="6.60E-04"
+                     /domain="DUF4162"
+                     /asDomain_id="fullhmmer_ctg1_16_0004"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF13732"
+                     /score="20.1"
+                     /aSTool="fullhmmer"
+                     /translation="AGVEREADGAVLVRLADPAEAPLLLAGLLKAGVALHEVSVREPTL
+                     DDAFLR"
+                     /label="ctg1_16"
+     CDS             32026..32838
+                     /note="smCOG: SMCOG1065:ABC-2_type_transporter (Score:
+                     44.1; E-value: 1.92e-12);"
+                     /note="smCOG tree PNG image: smcogs/ctg1_17.png"
+                     /locus_tag="ctg1_17"
+                     /translation="VSVRAVRADATYVLRAWLRGRSGVVVSLAMPLILLLALGLIVRPA
+                     GAEAPLVGVADLSGTAEGDALLEALAADDAVRIVALDSPPADVAAWMGDAGARGYVELL
+                     AGWNATTPPRLVVDAASPVEAAAVRDAVAAARSGAEPLAAEEVRLPAPATYGAFLLPGV
+                     IGLTVLTVGLPLGFASVIELRQYGLMERLAVSPMTRRSWLLARMLGASVVALASAALLV
+                     LVAWAALGIRPVLGLWTVLLVVAGTLVFSGLGALLGGAVRDPSPAAPS"
+     PFAM_domain     32068..32826
+                     /note="Pfam-A.hmm-Hit: ABC2_membrane_2. Score: 31.7.
+                     E-value: 6.5e-08. Domain range: 8..188."
+                     /note="ClusterFinder probability: 0.712970432818"
+                     /locus_tag="ctg1_17"
+                     /description="ABC-2 family transporter protein"
+                     /database="Pfam-A.hmm"
+                     /evalue="6.50E-08"
+                     /domain="ABC2_membrane_2"
+                     /asDomain_id="fullhmmer_ctg1_17_0003"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF12679"
+                     /score="31.7"
+                     /aSTool="fullhmmer"
+                     /translation="RAWLRGRSGVVVSLAMPLILLLALGLIVRPAGAEAPLVGVADLSG
+                     TAEGDALLEALAADDAVRIVALDSPPADVAAWMGDAGARGYVELLAGWNATTPPRLVVD
+                     AASPVEAAAVRDAVAAARSGAEPLAAEEVRLPAPATYGAFLLPGVIGLTVLTVGLPLGF
+                     ASVIELRQYGLMERLAVSPMTRRSWLLARMLGASVVALASAALLVLVAWAALGIRPVLG
+                     LWTVLLVVAGTLVFSGLGALLGGAVRDPSPA"
+                     /label="ctg1_17"
+     PFAM_domain     32089..32820
+                     /note="Pfam-A.hmm-Hit: ABC2_membrane_3. Score: 58.0.
+                     E-value: 7.6e-16. Domain range: 1..267."
+                     /note="ClusterFinder probability: 0.775841266782"
+                     /locus_tag="ctg1_17"
+                     /description="ABC-2 family transporter protein"
+                     /database="Pfam-A.hmm"
+                     /evalue="7.60E-16"
+                     /domain="ABC2_membrane_3"
+                     /asDomain_id="fullhmmer_ctg1_17_0001"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF12698"
+                     /score="58.0"
+                     /aSTool="fullhmmer"
+                     /translation="SGVVVSLAMPLILLLALGLIVRPAGAEAPLVGVADLSGTAEGDAL
+                     LEALAADDAVRIVALDSPPADVAAWMGDAGARGYVELLAGWNATTPPRLVVDAASPVEA
+                     AAVRDAVAAARSGAEPLAAEEVRLPAPATYGAFLLPGVIGLTVLTVGLPLGFASVIELR
+                     QYGLMERLAVSPMTRRSWLLARMLGASVVALASAALLVLVAWAALGIRPVLGLWTVLLV
+                     VAGTLVFSGLGALLGGAVRDPS"
+                     /label="ctg1_17"
+     PFAM_domain     32494..32814
+                     /note="Pfam-A.hmm-Hit: ABC2_membrane. Score: 43.3. E-value:
+                     2.2e-11. Domain range: 48..157."
+                     /note="ClusterFinder probability: 0.751054575738"
+                     /locus_tag="ctg1_17"
+                     /description="ABC-2 type transporter"
+                     /database="Pfam-A.hmm"
+                     /evalue="2.20E-11"
+                     /domain="ABC2_membrane"
+                     /asDomain_id="fullhmmer_ctg1_17_0002"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF01061"
+                     /score="43.3"
+                     /aSTool="fullhmmer"
+                     /translation="AFLLPGVIGLTVLTVGLPLGFASVIELRQYGLMERLAVSPMTRRS
+                     WLLARMLGASVVALASAALLVLVAWAALGIRPVLGLWTVLLVVAGTLVFSGLGALLGGA
+                     VRD"
+                     /label="ctg1_17"
+     CDS             32886..33080
+                     /locus_tag="ctg1_18"
+                     /translation="VALLPGPLRWASFISPLTHLNAGLRLGMLEGDVGGALLHAAALAA
+                     AAAVLLLAGGRFVRWTARD"
+     PFAM_domain     32895..33047
+                     /note="Pfam-A.hmm-Hit: ABC2_membrane_3. Score: 16.8.
+                     E-value: 0.0025. Domain range: 292..342."
+                     /note="ClusterFinder probability: 0.677643777693"
+                     /locus_tag="ctg1_18"
+                     /description="ABC-2 family transporter protein"
+                     /database="Pfam-A.hmm"
+                     /evalue="2.50E-03"
+                     /domain="ABC2_membrane_3"
+                     /asDomain_id="fullhmmer_ctg1_18_0001"
+                     /detection="hmmscan"
+                     /db_xref="PFAM: PF12698"
+                     /score="16.8"
+                     /aSTool="fullhmmer"
+                     /translation="LPGPLRWASFISPLTHLNAGLRLGMLEGDVGGALLHAAALAAAAA
+                     VLLLAG"
+                     /label="ctg1_18"
+     CDS             complement(33128..33751)
+                     /locus_tag="ctg1_19"
+                     /translation="MTTKKAAKAAPKAKGKASKEKDATPALSFTEAPKPKPIRKVKAHV
+                     QHDEAPPAKRSGKPKKVSKVAAEIQAATSNALPRPMKVRQEHPEIQENQGGNLKWAEEA
+                     FWAFFGDEIEQMATYPAEIFNDRAYMWRCECCDVPLRVPRRTTVFHGDYEVQHDDQEGL
+                     LVNGERFMPGAYTSGIQVVQPGRLRNPWTGKLLEGKELGTTGVT"
+     CDS             complement(33748..34071)
+                     /locus_tag="ctg1_20"
+                     /translation="MVGPDGTLIPAPPEEPPKAKAPEPIALPAYVKEGTSTADGWRRVV
+                     EHIRYVKAKTDNEDEVRTSTAKFVQEYPGSVRRVDNDYWTGMQLALDAYRSQDKAFWRS
+                     ISQ"
+ORIGIN
+        1 tgccttgcac accctcgagg cccgcgggtt ccgtgggagt ttccatgcgc gcccgcgggg
+       61 gacgtggtct gcgagacctg cggcagcgcc accgccgcca cccggctgac cgtcctggcg
+      121 caggagcgcg tggaaggcgt cagcgacccc gccgacgagg cgctgctggc cggcctgcgt
+      181 tgcccggcct gcggttcgca gggcacgctc atcctggcct acgggccgcg ggcgcgacgg
+      241 agcgacgccc tcgtcctggc gtccctgccg gccgcccctg ccgcgggacg ccaagggtcc
+      301 ctgcgaagcg cttaaggcga cgtcgcatcc aggcgtcctg cgtgcccgcc agcaaggccc
+      361 ccgccaagaa gtccgccccc aaggccgctc ccaaggccaa ggccccggcg aaggccgccg
+      421 cgaagcccgc ggcgaaggcc gccgccaagc cggccgccaa gcccgcctcc ggcgcggccg
+      481 ctgcgggcaa gccgctgaag ccgatggcga aggcgcccgc ggggaagccc accggcctgt
+      541 cgtcgatggc ccccgcggcg gcgccggagc ggcgccggcg gacgcggagc cgacgcccgc
+      601 gctgaagatg gagaagctgg cggagggcac gctctgccag atcgagatcc tgaaggacgg
+      661 ccatttcttc atcgcgcgga cgcagacgga gtcgggcctc gcgaaggagt tcaagaacac
+      721 cgtgttcgag gacctgctca ccgagatgct catcacgttg caagagcagt tgaccgattg
+      781 agcggagcga aggcggtcag ctgagcgagg agcgcagcga cgagcggacc gcgaggacgc
+      841 gagcgcagcg agcgctcctt gcgggttcca ttgccgcaag catcggggcg tcctgctttc
+      901 ggtccgtgca gtccgtctgc accggtgcct acggttgaat agcggccgga agtgtaggtc
+      961 ctgcggcctc gcgccgcatg tgaacaccat gggacacggt tgcggacctt acgcctgcgg
+     1021 ccccggctac agtggccggc gctacttgac caaggacgag aaggcggcgt ggctgaagga
+     1081 ttacgccgac gacctcgaga acgagctcaa ggctgtgcgc gagcgcatcg ccgagatcgc
+     1141 ggcctagcgt cgccttcgcc ctcttcctcc cttcttcccc cgtcgtcgtc gaccgcgccg
+     1201 gtcaggcgcg caggcgcacg cggctctgcc cgcgctggcc ttccgccggg cgcttgacct
+     1261 cgaactcgcc gcgcagcgaa tccaggagag cgacgagctg gcgcttgccg tactgccgcg
+     1321 ggtcgaagtc ggggttgttg gcgtagagga tgttgcccac ggcgccgacg tcggcccagc
+     1381 cgtcctcgcc ctcggcgtcc tcgacggcgc cgcgcagcag ctcgacggcc tcgcgcggcg
+     1441 gagccttgcc ggagccgccg ttgcgctcac cgccgccagg ccgaccgcct cggcggcctc
+     1501 cgcgctcacg cggtgcctcg tcctcggccg gggcccgcac ggcggcgtgc gtccgctgct
+     1561 tccccttcgc cagcgtgtcg agcgcgatga agcggtcgca cgccttgatg agcgacttcg
+     1621 gggtctgcgc gcggcccatg ccgaccacgg tcttgccgga ctcgcgcagg cgcatggcca
+     1681 ggcgcgtgta atccgagtcg gaggagacga ggcagaagac ctcggcctgg ccgccgtgca
+     1741 ggaggtccat ggcgtcgatg atgagcgccg tgtcggtggc gttcttgccc gggacgtagg
+     1801 cgaactgctg caccggctgc agcgcatgct cgtgcaggag cttcttccag ccctgcagct
+     1861 ccgttcccgt ccagttgccg tacacgcggc ggatggtggg acgcccaaac cgggcggcct
+     1921 ccgccaagac agcgtcgagc atgtcggccg cgacgttgtc ggcgtcgatg agcaccgcga
+     1981 ccgggatgct ggccatcccg tcggtggggt cgggcatgcg ccggccaggg gcacaggggg
+     2041 ttaatccctg tcggccgctt gccggcccgt tgggaatcgc cgcgctccgc aaggtcctgc
+     2101 ctcctgcgcc gttcgacgtg gcccagctgc aaggcaagac cgtcgccgtg gacgccgaca
+     2161 acctggtctg gtcgttcgtc acggccatgg cggcgacggc ggagctgccg aaggccccgg
+     2221 acggccgctc caacgcccac ctcatcggcc tgctcaaccg gctgtcgctc tacgccaaat
+     2281 ggggcacgcg cagcgtctgg gtcttcgacg gcgtccaacc cgacctcaag gaggcgacgc
+     2341 tcatcgagcg ggcggagcgg atcgaggcgg ctcgcgcgtc cggggacaac taccaggcgg
+     2401 gagtggcagt ggacgaggac gatctgcagg aatgccgaga gctcctcagg gccctcggcc
+     2461 ttccctacgt ggattcgccg ggcgaggcgg acgcgcagtg cgcccacctc gtccaggccg
+     2521 gccacgcctg ggcggctgtg acgcaggact gggacatcgc gctcttcggc gcgccgcggg
+     2581 ccctgcggaa cctcacgctc agcaccaagc gcacgccgga gatcctcgac ctcgacgtgg
+     2641 tcctcggcgt ggcgggcctg acccgcgagc agctcgtgga cgccgccatc ctcatgggca
+     2701 ccgactacaa cgagggggtc tccggcatgg gcccggtcaa ggcggtccag gccgtcaaga
+     2761 aaggtccggg tgcgcccgag cgcaacggcg tggcgaacgc cgacgaggtg cggaggctgt
+     2821 acttcgacca tcccgtcgac aagcgcttcc gacccaagtt cggcaagccc gacgccaaag
+     2881 cattggggaa gctgctcaag tcacgcggca tcgacgtgga acgcggcgag ggattggtcg
+     2941 cggcgttgca gtccttgtag tcccgtcggc gccagcaggg gaagccgcag acagcgcaga
+     3001 ggacgcagag gccatcctcg ctctgcgggt ctctgcgccc gctgcggctg cccttgctga
+     3061 cgccgcggcg atgacatgcg ttcgagctgg caggcgacta caagcgggtc tgcttggcct
+     3121 ggtccttggc cttccacttg agccggtccg tcttcttgcg gatgaccgac ttgcggacgg
+     3181 acgggcgggt gtgctccgag cccttgccgg tccagcgcag gccgcggtgc ttctggcccg
+     3241 ccgaggtctt gccgcgcagg acgcggttgc gcgcgttgcc ctgcgtgatc cagcccaggt
+     3301 ccttgtccga ctcgatggcc gggtggtacg ggtcgaggag gatgacctcg tagtagtggt
+     3361 gcttgccgtc ctcgccgacg tagtaggagt tgaggacctc gaggttgggg aagtgcttgg
+     3421 agacacggac ctcggcgatg gcctgcgtgt tctggcgcat cgtgatcttg ttcacaccca
+     3481 tcttggacgg gacgcggccc tggacgaagc gctgcttgcg gaggccaccg cggcggacgc
+     3541 gggcgcggac gacgacgacg ccctgcttgg ccttgtagcc gagggcgcgg gcgcggtcga
+     3601 ggcgcagggg cttgtcgacc ttgacgaacg aggggccgtt gcgccaggcg accaggcggt
+     3661 cccactgggc ggtgccgtgc tccttgtcgt gcttcttcca ggtctctccg atgtggtggt
+     3721 acgcgttggg catggggtgc acctagggtg cgtgcgtcgt cggcccggca tcaaggcgcg
+     3781 ggtcggacgc ggtcgcgggt ttgcaggttc agccccacac gcgaaggtgc ttgcccgaag
+     3841 gcgggggcca cattccagcg tcggtcccga aggcccgacg gttttgcgac gaaggggggg
+     3901 tataaaggct gaacgggggc cgccggccgc cccaggagcc agccatcgtt gggccctagg
+     3961 atggccacgg acgcgtcacg aggcggggcg gggccccctc gcccgcgacg gcgcctgcgt
+     4021 agccgtccgg caccatgatt cgctccaccc acgcgcctgg tggcgggggg gcggcgaggt
+     4081 cgccggcgag ccccagcccg gagagcttga ggagcgcctc cttgcgcgtc caagcctcgt
+     4141 agaagccagc gaggtccagc ccgtcccgct cgccgcgtgc gaagaagcgg gcggcgatct
+     4201 cgcgatggtc gacgcgcgcg tccacccgtt cgacgtccac gcccagagcg cggccacggg
+     4261 ccaccgcgac aagggcgacg tctcccgaac gggtcgcgct gaagcggagg tccgtgcccg
+     4321 cggggcgcgc gagcgccggc tttccgtgcc tggcgctccc gcagcgcgcg caccgcatgg
+     4381 cgaacgccac gtccgccggg gcgccccccg catgctgcgc aaggatctcg cggagcgcct
+     4441 gacgcgccgc cacgaagcgc cgccggtcct cggcgcgccg gaaccccgca gcccgctgcc
+     4501 gctcgccgtc gtccagcgcg tcggagcgcg gctcgcccgg cggcacgcga acgacgaaga
+     4561 cgcgcacctc gtctggcgcg agcggctcca tgccgcacca tccgggccac catttaattc
+     4621 cggcgcgggg ttggcgccgc gttgagccca ccgcgctggg tcgcgtacgc ctccgcccct
+     4681 gcgcgcctgc ggctccgcct cttcgtcttc ccccatgcgg gcgccggcgc cgcgagctac
+     4741 cgcgcatggg cgggggccct gccgccggac gtgcagcttg cgctcgtgca gctccccggg
+     4801 cgggaggccc gcctcgccga gccgccgttc aggcgcatgc acgacctggt ggacgcgctc
+     4861 gtgccagccc tccggcccca cctcgacgca ccgttcgcct tcttcggcca cagcatgggc
+     4921 gcgcacgtcg cgttcgaggc ggcgcgggcg ctgcgtgcgg agggccatga gccgatgcac
+     4981 ctggtggtga gcggcaaccg ggcgccccac ctgccgttcc cgcgcccccg catccaccac
+     5041 ctgcccgagg agcgcatcct cgccgagttc cagcgccttg gcggcacgcc accggagatc
+     5101 ctcgccgacg tgcagctcat gaccctcctg ctgccggtgt tgcgcgcgga cctcgagctg
+     5161 tgcgagacgt acgtggccga gcccggcgcg tccctcacgt gccccgtgac ggccttcggc
+     5221 ggcacgcgcg acccggacgt gcctcccgcc gcgctcgacg cctggcgcga atgcacgacg
+     5281 ggccccttcg cgcgccacct cttccagggg acccacttct tcctgcagga ggagcgccca
+     5341 cgcgtccttg cggccctggc cggagccctg cggggccatc cctgagcgaa aggtcatgat
+     5401 gggcctgcgc gtgaggacgc cgatgcggtc tgccgccgtt ggtctggtcc ttcttctcgt
+     5461 ctggtccgcg cccctcgtgt gggggtcgcc gacggccgcg tgggaggagc ttccgcccat
+     5521 gacgggcgct cgcgccgagg ccaccgcagc cacggtgggc tcgcacatct acgtcatcgg
+     5581 cggcgtcatg gaggatttcc tccccgtcgt ctccggcacc gaagggcgcg tcgacgtcta
+     5641 cgacatcgag accgaggagt ggcagcccgg cccgccgctg cccctcgccg tcaaccacgc
+     5701 caccgcggtc gccgtcggca cgaagatcta cgtgatcggc ggctacatcg gcagcctcct
+     5761 cttcacgccc gtcgccacga cgtgggtgct cgacacctcc gtgcccctgg acgagcaggc
+     5821 ctgggccccc ttcgtcccgc tgccggcggc gcgcgccgcg catgccgccg tgacggacgg
+     5881 gcagacgatc tgggtgttcg gcggcatcgg cgagccgggc gccatctcca tcggcgtgcc
+     5941 cgaggcgttc cacgagcgca ccgtcctcgc gctcgacctc gaggccgacg tgccggcatg
+     6001 gcaggtcctt ggcctgttcc ccgacgtccg cgaccacctc gtcggcgcct accacgacgg
+     6061 gaaggtgtac gcgatcggcg gccgcgacct gcaggtgcag ctcatcaccg gccgcatgga
+     6121 cgtgctcgac gtcgccaccg gcacgtggag cgtcgggcca tctctgccga ccgcccgcgg
+     6181 gggcgctggc gcggccgtga tcaacgggag catctacgtc gtgggcggcg agacgacgac
+     6241 gcacgccttc gcagacgccg aggcgtacga caccgcgctc ggcacgtggt ccgtgctgcc
+     6301 cccgatgccg ggcccccggc acggcgtcgg cgtcgtcgcg gtcgacggct ccctgtacgt
+     6361 cgagggcggc gggccggcgc caggctacgc cttctcggcg acgaacttcc ggcttctggc
+     6421 ctgagacggg gtcgcgaagg ccgtcgcctg ctaacgggcc tcgagcgcgc gctccacgtc
+     6481 ctcgtcgctc atcgccccta gcttctccag gagcgccgcc tccagcaccg cggcgaagtc
+     6541 cgcgacgctg cgcgcctgga agaactgcgg cagggcgacg gccacgtcga actcctcctt
+     6601 gacgcggttc acgatgcgcg tggccaggag cgagtggcca ccgagctcga agaagtcgtc
+     6661 ctgcacgccg atgccctgga acccgaacgc gtcctcccag acggccacga gccgctcctc
+     6721 gatcggggtc gtgggcgcga cgggcgccac ggcgagggcg gggcgctcgt acgtctcccg
+     6781 cagggtgctc tcgcgccgcg gcgtgtcgat ggtgatgtgc gccgcatcca ctgcgagcgc
+     6841 gcgggcaacg tcggcgggat cggtgcgctc ccagtcctcg cactgcacca cccgccacga
+     6901 gaggccggca cggcgcgcga gggcggtgcg agcgagggcg agcccgtgca gtgcgccgcc
+     6961 cgacgtggcc aggacggcag gcgcgccgtc ggccaggagc gcatccatgg cgcgcccctc
+     7021 gtcggccaac gcgcgttcga cctcgtcgga ggtcgcccct gccaggtcgg gcagccggcg
+     7081 cgtgatggca agggggctcc caccggggcc agcggcatcg gcggattcct cggaggggac
+     7141 ccagcggtgg gcgccgcgca gcgcgacgac ggcatcgccc gactcggccg acgccatctc
+     7201 cgccgccagg cgggcagggt cgccgctccc gtccacgtcg atgacgcggg cgccgcgggc
+     7261 gagcgcggcg gcagccagcg gagcgtcacc gagcatttcg cgccccgtga cgtcgtgcgc
+     7321 ctcgcgggtg acgacgacga gcgggacgcc gtcgtggacg gcgtcgagcg ccgggagggt
+     7381 gccgtcgacg agcgcgaccc atgtcgtcgc agcgccgttc tggcgccggg agaagagggc
+     7441 ctcgttctcc acgcgtgtgc cggcgggtgc gcgctcgacc gtgtgccccg ccgcgcgaag
+     7501 ccgctgggcg agcgcctcgt tgccgcccac gaggagccaa cgtccgggca aggccgggga
+     7561 gggccggagc gcgcggcgcc atccgcgggc gcgcacgcgg gcgtcgtccg gagcggtatc
+     7621 ccccttggcg ggcgggtcga gccagaagcg ctggcgctcg aacgggtagg tgggcacgat
+     7681 cgtccgtcgg ggcgctgcgg gtgcatgcac gccagcccag tcggggcgga ggccggcaag
+     7741 ccagagccgt ccgagcgcct ggtgcaggac gacggcatcg tccgccgcgg cgtcgtcggg
+     7801 gtggcgaagg ctggcgagca cgacgcggtc cttggacgcc tgcctcgcgg cgagcgccgt
+     7861 gagggtgcgg ccaggcccga cctcgaggag ggcgagcgtc gggtcggcca ggagcgcggc
+     7921 gacgccgtcg gcgaagcgca cggcctcgcg caggtggcgc atccaatagg ccgggtcggt
+     7981 ggcctcgtgc ggctcgagcg gccggccggt gacgttcgag aggagcggga tggtcggcgc
+     8041 ccgcagcggc aggcgggcga cggccgcgtg gaaatcggcc agcactggct ccatcatcgc
+     8101 gctgtggaag gcgcgcgcga cgcgtaggcg cttcgcctcg atgccgcgcg cggccaggag
+     8161 ggtggagagc gcctcgatgt ccgcgggcgc gccggaggcc acgcagctct cgggggcgtt
+     8221 cacgccggcg agcgagacgc ccggcgggag cagggggcga aggtccgcct cgcccaaggg
+     8281 gacggcgagc atcgcgccct cggggagcgc ctccatgagc ttggcgcgga gggccaccag
+     8341 cgtgagcgcg tcctcgagag tgaggacgcc tgcgacgcgc gcggcgacgt actcgccgag
+     8401 gctgtggccc aggaccgcgg cgggacgcac gccccaggag gtccacagct cggcgagcgc
+     8461 atgctccacg acgaagacgg cgggctgcgt gcagagcgtc gtggccagga gcttctctgc
+     8521 ctcggcgcgg cgctcgggag cggggaacag gacctcgcgc aggtccatac ccaggggcgc
+     8581 cacgagcagg tcgcagcagc ggtcgacctc gcggcggaag acgggctcgc tctcgtagag
+     8641 ggcctgggcc atgccgaggt gttgtgcccc ctggcccggg aagaggaagg cgacctggag
+     8701 ggtgtcggcc tccgagcgcg cgctcgatgc gccgcgcgtc tggccgcgca ggtgggcgat
+     8761 ggcttcggcg cggtcgcggc cgaccacggc gcgccggtgc gccaagcgcc ggcggccggc
+     8821 ctggagggtc cacgcaacgt cggcgaggtg agccccggcc tcgatgtggt cggcaaggcc
+     8881 ttgcgcgagc gtgtcgaggg cgctgggcgt gcgggcggac aggacgagga cctgcgggcg
+     8941 cacgtcaggc gtggcggaag cccgggccgg tgcctgctcg acgacgacgt gggcgttcgt
+     9001 tccgccgatg ccgaagctgc tcaccccggc gcggcggggc gaaccgcgga aggcgacggt
+     9061 ctggcggttc acgtagaacg gggactcgtc gagcttcagc gcaggattgg gctcgtcgaa
+     9121 gtgcagggtg ggagggatgc gcccctgctc gacggcgagg acggccttga tgaggccgat
+     9181 gacgccggcg gccgcgtcgg cgtggccgac gttcgtcttg acgctgccca acgcgcacga
+     9241 gccgcgcggt gcctcacgtc cgaaggcttg gcgcagcgcc gcgacctcga tggggtcgcc
+     9301 cagccgcgtc ccggtgccat gcgcctcgat gtagcccagc gtggcggggt cgatgccggc
+     9361 gaccgcgtgg gcctcggcca ccacggcggc ctgcccttcc acacttggcg cggtgaagcc
+     9421 gaccttgcgt gcgccgtcgt tgttgagcgc cgtcccgcgg atgaccgcgt ggatgacgtc
+     9481 gccgtcggcc accgcctcgg acagccgctt gagcaggacg gccccgacag cgctcccgcc
+     9541 cacggtgccg gaggccttgg cgtcgaacgc gcggcagtgg ccgtcctcgg tcatgatgcc
+     9601 gccttcttcc aggaaggagc cgtagccggg gtcggccttc acggccgagc cgcccgcaag
+     9661 ggcgaggtcg cattggtggc cgagcagcgc ctcgcaggcg agcgagacgg cgacgagcga
+     9721 cgtggagcag gcggtctgga ccgtcatgct cgggccggtg aggtcgagcc ggtaggagac
+     9781 ctgcgtggcg aggaagtcct tctcgttcat cgccatggcc tggaaggcgg agtccgccat
+     9841 gacgcggcgc gtgggaagga cgcgttccag gaggtaggcg ttcacgcctg cgcctgcgta
+     9901 gacgcccacg cgcgagcccg cgacgtcgcg tcccgcgcgc tggagggcct cggcgcagca
+     9961 ctcgaggaac aggcgctgct gtgggtccat gagctcggcc tcgcgcggag tgatgccgaa
+    10021 gtaggcggcg tcgaagaggt cgatgccctc gagggcgccg gcggcgcgtc ccgcaaaggg
+    10081 cgggcgggcc ggcggcgtgg tgtccgcgcg cggccattcc tgctccggcc gcacggcctc
+    10141 gacgccgcgg cacagcatct ccatgaacgc ctccggtgtg ctggcgccgg ggacgcggca
+    10201 cgccatgccg acgacggcga tcgcctcggg ctcgttcatg cgccgcctcc gttggggcgg
+    10261 aggggccgca cccgcgccgc gcgtcgcgcc tcgccacgtt cggccgcgcc ctggacggag
+    10321 atggacaccg cggtgggcgc ggcggcaagg tggcgcgcaa gggccgccac ggtcgcgtgc
+    10381 tcgaagagca caacgacatc gacctcccgt cccagcgcct tggagaggcg cgtctgcacg
+    10441 tcgccacgag gagcgagtgg ccaccgacgt cgaagaaggc gtcgtgcagg ccgacggtgg
+    10501 gaagcccgag ggccccgcac caggcgcctg cgacgatccg ctccatgggc gtgcgcggga
+    10561 ctgacgcctc gtcgggcgcc accagcgcct cgacgggcgg gagcgcggtg cggtccacct
+    10621 tgccgctggc ggtcagcggg agcgccggca gttccacgaa gaacgacggc acgaccggcg
+    10681 cgggaagatg cttggacgcg tgcgaccgca gggcatcgcg caataccggc gcggcacgcc
+    10741 ggggcgcggc cggcgcgttc gcgggcacga cgtaggcgac gagccgggtc tcgccgcgcg
+    10801 catccgggga ggcgacgacg gcgacgttgc cgacgagcgc gtggcgagcg atggcagcct
+    10861 cgacgtcgcc gagctcgacg cgcaccccgc ggaccttcac ctggtcgtcg aggcgcccgt
+    10921 ggcactcgat gcggccgtcg ggaaggatgc ggccgatgtc gcccgtgcgg tagacgcgtt
+    10981 cgccatcgac gaggatgaag cgctctgccg tccggtcggg gcggcccaga tatccgcgcg
+    11041 caaggccggc cccgccgatg cagatctccc cgaggcccgt cgcatcgggg gccaggatgc
+    11101 gggccgtcga gcccgacacg ggccgtccga tcgtcggctc gacgcccggc acgcagtgct
+    11161 ccgtggtgct ccagaccgtc gtctccgtgg gcccgtagag gttgtagaac ccacggcgac
+    11221 ccttggccca gcggtccacg agggaagcgc ggcaggcctc gccgcccacg aagatggtgt
+    11281 ggaggtccgg gagctccgca tacgggaggg ccgccaggac cgagggcggg aagaaggccg
+    11341 cagtgatgcg tcgttccgcc aggagccgca cgagcgccgg gccgggcacg cgttcgctgg
+    11401 gcagcaggac gtggagcgtg gcgcccgtgg cgaggcccat gagcgtgtcg aagagggagg
+    11461 cgtcccagcc gaccgcggcg aactgggtca tgcggtcgcc ggggccgatc ccgaaggcgc
+    11521 gctgcatctc gtcgacgcgc gcggcgaggg ccgcatggtc gaccaggact cccttgggcc
+    11581 ggcctgtcga gcccgacgtg tacagcaggt acgccaggtc gccaggcacg atctccggca
+    11641 gggaaacgtc ggccggagct ccgtcggtcc cgtccagaag taggcaatcc gcgccttcga
+    11701 tggacgtctt ggcaaggacc gtgcgcgggc gggcgtcctg gagcacgagg tcgcgacggc
+    11761 cggcggggtg gtctgggtcg aggggcaggt acaccgcccc cgcgcgcagg atggcgagga
+    11821 agccgacgac gacctccgcc gagcgttcgc tgtggaggcc cacgacgtca ccggtgcgga
+    11881 cgccgtgggc gacgaggcgc tgcgcgagga ggcgtgaccg tgcgtccagg tcgccgtacg
+    11941 tgagcgcggt cgtgccgcag acgacggcgg gtgcctcagg ccgttcgacg gcatggcgca
+    12001 ggacggcctc atgcgccagc agtgggcctg tcagcgcaac acctcctgca ggaccggtcc
+    12061 gtcggagctc gccatcgcgt cgcgcaatgc gtgggcgagc acctgccggt catcgggcga
+    12121 gagcatgagc gaccagtggt cgccgcggac gggcgcgacg tcgacctggc cgacgtacgg
+    12181 gcgccattgg tcgggaacgt ccgggtggcg ccgcagcgct tgctcgctga ccaggaggag
+    12241 gacgcgtccg cggtaggggc gtggcgtgta ggagagtccc gcggccatct gggcgtcgaa
+    12301 caccttggcg tagcgccgga gctggtcaag accgacctcc gcgaactcgg ggggtgctcc
+    12361 gaactccatg aggaggcgcg acatgtcgtc gcggagcgcc gcaaggtcgc gcgcgtcggc
+    12421 ggggcggctg cgcgcctccg cggcgagcgc gtcgatgcgc ttggccagcg cgctgatggc
+    12481 gtcgcgcggc gcgtggggcg gcgggaggcc aggctcgacg agcgccagga gggcgacggc
+    12541 ctcgccggcg gcctcgagct ggcgcgccat ctcgtacgcg atcattcctc cgagcgacca
+    12601 gccgcccagg cggtaaggcc cttgcggctg gacagagcgc acggcgtcga tgtaggtggc
+    12661 ggccatctcc tggagcgagg tgtgcggctc gtggcggtcg tcgtcggcgc ccaacgcctg
+    12721 gacgccgtag aaggggcggt cctggcccag gtcgcgggca aggtggacgt aacacccgac
+    12781 ggtgccgcca ccagggtgca cgaagaacag gggggtgccc tggccggcac gggaaatggg
+    12841 gacgaggcag ggatgcgatg caggcggggg cgtggcccct ggctcgaaga ggggagcgag
+    12901 ttcggcgatg gtctggcgct cgaagagctg cttgggacgc atcggcacgc cgtgtgccgc
+    12961 ggcggcaagg gtggcgcgga tgctggtgag ggagtcgccg ccgagcgcga agaagttgtc
+    13021 gtggagcccg acgcgttcga tgcgcagcgc ctcgcgccag gcgagcgcga gcgcctgctc
+    13081 gacgggagtg cggggttcgg catagtcgac tccgaggtcg gggcgcgcag actcgggcgc
+    13141 cgggagggcc ttgcggtcca ccttgccgtt cgacgtgagc gggagaccgt ccagcctgac
+    13201 gaacgccgcg gggatcatgt ggtcggggag cgagcggagc aggtgctcgc gcaggtcgcc
+    13261 cgcggacggc gcctccgcac gcgggacgac atacgccaca aggcgcctct cgccgggcgc
+    13321 atcctcgcgg gccagcacga ccgcctcgcg cacgccgtcg tggcgcagga gcacggagga
+    13381 gacctcgtcg agctcgatgc ggaagccgcg gatcttcacc tggtcgtcga tccggccgag
+    13441 gtaggcgatg tcgccgtcag ggaggcgctt tgcaaggtcg cccgtgcggt agacgcggcg
+    13501 cttgccgatg tggaggaagc gcgcggcggt gagctcgggg cggtcgaggt acccgcgggc
+    13561 gacgcccgcg ccgcccacgt agagttcgcc gggcacgccc acggggaccc ggcgtccgcg
+    13621 cgcgtcaagg acgtcgaggg tgaggtcggg gatcggctcg ccgatggggc tcacgccgac
+    13681 cacgtcggcg tcggcgcggc ggatgcggcg gtaggtgacg tgcacggtgg tctcggtgat
+    13741 cccgtacatg ttgacgagcc gtggcgcatc gtcgccgtgg cgctccatcc aggaccgcag
+    13801 ggctccgacg tcgagcgcct cgccgccgaa gacgatgcag cgcagcgcca gctcgttggg
+    13861 gccgtggcct tcgtcgacgc gcgccagctg cgcgaaggcg ctcggtgtct ggttgaggac
+    13921 cgtgaccccc tcgcgtgcga ggaggtcatg gaacgccgcc gcgtcacgcg cgacggcatg
+    13981 ggggacgatg accaggcggc cgccgtagag gagcgccccc cacatctccc acacggagaa
+    14041 gtcgaaggcg tacgagtgga acagcgtcca cacgtcgcgg ccgtggaacc cgaaccatgc
+    14101 gtcggtggag gagaacaggc gggcgacctg cgcgtgctcg accaacacgc ccttcggctg
+    14161 gcccgtcgag cccgacgtgt agatgacata ggcgaggtcg gagggcttcg ctccgccttc
+    14221 gacgccggtc cccgggtcgt ccgcaaggcc ggggtcgtcg gcgtgcacca catgcgtcgg
+    14281 accctcgatc ctgagcgccc cgtgggtcac gaggatgcgt gcgccgcagt cgcggaacat
+    14341 gaacgccagg cgttcctgcg gataggcggg gtcgaggggc acatgcgcgc ccccggcctt
+    14401 cagcacggcg aggacgccga cgacgaggtc cagcgagcgc tccagcagca gggccacgcg
+    14461 cgtcccgggc acgacgccca gccgcttgag ccgccgcgcg agcgcgttgg cgcggccttc
+    14521 cagctcggcg tacgtcaggt tggcgccttc gcaggtcaac gcgacctggt cgggcgtgcg
+    14581 cgccgcctgg tcggcgaaca gctcatggat gcaccggact ggcgtatgcg gtgcgggttc
+    14641 gcgcgccgcg cgctccccgg gtgcaagcag cggaaggtcg ccgaccggct ggtgcggatc
+    14701 gtcggcgatg ccctggagca ccgtcgcgag gtggtcgagc atgcgctccg ccgcgtcgtg
+    14761 gtcaaggcgg cgcttgtcgt acgtgatgcg gagcacgagc gcatcggcca gcccggcgat
+    14821 gacggtgacg gggaagctgg tgcgctcgaa ggcgcgcacg tcgcggatcg agagcccgtc
+    14881 gtcgccgcgg gcggcctcga cgggatagtt ctcgaacacc aggaggctct cgaccagggg
+    14941 gcggccgcgc ggcacgtcgc tccagccctg gatgcgcgcg agggggacgt gctcgaactc
+    15001 gcgggcgcgg acctgctgct cctggagggc ggcgagccag gcgagcgtcg gcccgtcctg
+    15061 tggcacccgc gcgcgcagcg gcaccgtgtt gatgaagagc ccgaccgcgg actcgatgcc
+    15121 cggaagctcc ggaggtcgtc ccgagacggt cgcgccgaac acgacgtcgt cctcgcccgt
+    15181 gtagcgcgcc aggagggcag cccacgcgcc ggcgacgacg gtcccgaggg tgaggcggtt
+    15241 ctcgcgggcc aaggtgcgca gccgctccgt cgtcgcgtgc ggcaggcgcg tctccacctc
+    15301 gccgccgccc ggcgcgacgc gggggtcggc gggatggtcg acgacgagcg gggtcgccgc
+    15361 gcgcacgccc cgcagcgccc cgcgccagta ggcctcggca gcgcccgcgt cgcgcgcggc
+    15421 gagccaggcc acgtggtcgc ggaaggcgaa cggcgctgca agccgcggcg cttcgccatt
+    15481 cgcccgcgcg gcgtgcgcgg cgaagacctc gcccaggagg acgggcatgc tccacccgtc
+    15541 gaggagggca tgatggaacg tccagacgaa gcgatggctc gtggcggaga ggcgcgcgac
+    15601 cgcgatgcgc acgagaggga gggcgtcgag gtggaagccc ttcgcccggt cggcctcgag
+    15661 gtaggcggcc aggcgcgcct cctgctcgcg tgcgcccagg cgtgaccagt ccatgcggac
+    15721 gacggggatc gtgccctgct tgtggacgag ctgcagcggc cggtcgaggc cttgccattc
+    15781 gaagctggtg cggaggatcg catggcgcgc cgccacgtcc tgccatgcgg cctcgaacgc
+    15841 gccggcatcg agggtgccat cgaggatcgc gctcatctgc tcgacgtaga cgtcggagcc
+    15901 cgactcgtag agcgcgtgga agagcatgcc ctcctgcagg ggcgtcagcg ggtacacgtc
+    15961 gacgacgtcg ccgcggccgt cgacgaggcc gtcgagggcg acctggccga ggcgtgcgag
+    16021 cggaacatcc gagggggtaa ggccacccgc cgcagggtcg ccgcagcgtg cggcgagctc
+    16081 gccgagcgca tcctccaggg cccgtgcgag cgcgtcgatg ctctcgggcg cgtggacgtc
+    16141 ctccgaccag gtgagcgtga gctggaggcg gccggcgagg accgagcccg tgacgtcgag
+    16201 cgcgtgtgcg cgcagcgcac gggggctgac gtcctccccc ttgggctgct gcaccaggcc
+    16261 gcgcaggagg cgtccgccgg cgaaggtgcc gtcgagctgg ccgaggtagt tgaacgagac
+    16321 ctgcggcgct ccgatcgcgg caagggcggc atcgtcgtgg acgtggcgca gcagcccgtg
+    16381 gccgaggccg cggccgggca ctccgcggag cgcctccttc gccgccttga gggaggccac
+    16441 gacatcgtcg ccatcggagc ggaggaggac cggatggacg ctcgtgaacc agccgaccgt
+    16501 gcgggtgagg tccgcgcctg gcacgacgtc ctccctgccg tggccttcga cgtccacgag
+    16561 gacctcggcg cgacccgtcc cctggcgcca ggcatgggcg aacgcggcga ggagggcctc
+    16621 atgggtcgac gcgcggtagg cgcgggcgac gtcctgcacc agggcctgcg tctcgtgctc
+    16681 gtccagggaa aacgtgcgat ggcgctgcga cgcgaacgtg ttcgggccgg cgcggtcgcg
+    16741 ggggaaggga gcgtcgtcgc ggaccgcgag ccagtgtgcg cgctcgttcg tcggggcagg
+    16801 cagcgcggcg agcgcgttcg cccaggcgcg gaacgacgtc gtgcgcggcg ggagccgcac
+    16861 cggcatcccg gcctcggcct gcgcataggc cgtctcgagg tcttcgagga ggatgcgcca
+    16921 cgacacggcg tcgaccccga ggtggtgggc cacgaggagc aggcgcttgc cggccggccc
+    16981 cgcgtcgatg aacccggcct tcagcaggca tcctgaggcc aggtccatgc cggcgcgcag
+    17041 gcggtctgcc tcccgcggga ggtcgtcgcc ggagaggacg tcaaggcgga acgatccagg
+    17101 cgtggcgggc gcgttcacca ggcgagctcc gtcgaaccgc aggcggagcg cgtcatggtg
+    17161 cgtgaccatc gcgtcgagcg cgcgttccag cactgcacgg tcagcgtcgg gggcgaggtt
+    17221 caggaggaag gagtggtcga agacgtgcgg gtccacggtg tgctggcgga ggaaccagcg
+    17281 ctggatcggg gtgggcgcga cctcccccac gacggggccc tcctcgacgg gaacggcggc
+    17341 cggcgcgagg gcgacggcgg cgagctcggc gacggtctgg tgctggaaga cctggcgcgt
+    17401 cgtgaggcgg aggccgcgct tggccgcgcg cgcgacgagc tggatgctga ggatggagtc
+    17461 cccgcccagc tggaagaagt tctcgtggat gccgacgcgc gggacgccca gcacttccgc
+    17521 ccacacgtcg gcaagcgtcg cctcggcggg cgtgcgcggc gcgctctcgg ccgcggggcc
+    17581 ctcacgcggg gccggcaagg ccttgcggtc caccttgccg ctgggcatca agggcatggc
+    17641 gtcgaggggg acgaacgccc cgggcaccat gtgctccgga agtcgctcct gcaggaaggc
+    17701 gcggaggcct tgcgccgaga cgttggcgcc cgcgcgcggg acgacccacg cgatgagccg
+    17761 cttgcgccct ggcacgtcct cgcgggcgtc gacgaggcat tcgcgcacgt cggggtgcgc
+    17821 gccgagcgtg gcctcgacct cgcccggctc gatgcggaag ccgcgcacct tgatctgccg
+    17881 gtccacacgt ccgaggaaat ccagcgtccc gtcgggcagg cggcgggcga ggtcacccgt
+    17941 gcggtacagc cgttccccgg cacgggcgac gaagcgctcc gccgtgaggt ccgggcggtg
+    18001 gaggtagccg agggcaaggc cgtcgcccgc ggcgtagagc tctccggcga cgccgacggg
+    18061 cacgggctgg aggtggcggt cgaggacgta ggcgcgtgtg ttggcgatgg ggcgcccgat
+    18121 ggggacgcgc tcggccggag gcgcgtcgac gacgtggcag gtgacgagcg tcgtgttctc
+    18181 cgtggggccg tagccgttca cgatgcggac gccagggagt gcacggagtg cgcgttcggc
+    18241 atggcgtggc gacagcgcgt cgccgcccgc gatgagctgc ttgaggcccc gcaggccggc
+    18301 ggggttctcg tccaccatgg cgtggaacaa tggcgtcgtg aggaggacgg tcgtcacgag
+    18361 gtgccggtgc agcaggtcac cgagctcctg gaaggagagt tggcggggcg gcggcaccac
+    18421 gaggcgggcg ccatgcgcca gggcgcccca cacctcgagc gtggcggcat cgaaggagac
+    18481 cgtggagagg aagccgatcg cctcgtcggg gccgaacgtc cagtagtcga cgcccatgac
+    18541 gaggcggacg atgccgcggt ggggcacgac gacgcccttc ggccggcccg tcgagcccga
+    18601 cgtgtacatg acgtaggcag ggtcgtccgc gcttcccggc acgtcgagcg ggccggcagg
+    18661 ttcgagcatg gcttcgggcg catcgggccg caccagccgc gcgccacgct ccggcagggc
+    18721 cttggcgccg cccgcgtcgg cgatgacgag cgcgaggcgc gcatccgcca gcatgaacgc
+    18781 aaggcgctcg ggaggatacg cggcatcgag ggggacgtag gcggcccctg tcttgagggt
+    18841 cgcaaggagg gagacgacga ggtctgggcc cttctcgacg cacacaccca cgagcgtacc
+    18901 gcgcgcggcg ccgtgccgcg cgaggtggtg ggcgaggcgg ttcgcgcgcg cgtcaagctc
+    18961 gccgtacgtg agcttgccgc cgtcggtcgc gagcgccacg gcctggggcg cgcgggccgc
+    19021 ggctgcctcg acgagttcgt ggacgcggcg gtcgcgtggg taggggacgg cggtgtcgtt
+    19081 ccagcgcacg agctctgact gcgtctcctc gtcgctcagc atcggcgccc ccgagacggg
+    19141 cacatcgggg tcgcgggcga aggcgtgcac cagggcgcgg tagtgttcgg ccatgcgtcc
+    19201 ggccgtcgcg tcgtcgaaca ggtcggtgtc gtactccagc catgcctgcg ccccttcccc
+    19261 gtcggcgcgc agggaaaggg tgaggtcgaa cttcgcgacg tcgagcggcg ggtggtgcgg
+    19321 ctcgagacgc agcggcccgg cgggaggcgt ggcaggcctg tcgtcgaagg tgaagagcgc
+    19381 ctggcagaac gggttgcgcg ccgggtcgcg ctccggacgc agcgcgctca ccaggacgtc
+    19441 gaacggtacg gcctgatggt cgaaggcgcg caggcacgcg gcgcgcacgc ggcgcaggag
+    19501 ggcgaggaag gtcggctccc cggacaggtc ggcgcgcacg acgagcgtgt tgacgaagaa
+    19561 cccgaggagc ccctgcgcct cgccctgctc gcgcccggag gtggggatgc cgacggcgat
+    19621 gtcgtcctgg ccggcgtgcc ggtgcaggac ggcgtgccaa gcggcgagga ggaccatgaa
+    19681 gggcgtcgcg ccttcgcgct tggcgatggc acgcagcgcc tggaggtcgt cggcggcgat
+    19741 gcggacggtg cggcgtgcgc cgcgatgcgc ctgcacggcg gggcggggtc ggtccgtggg
+    19801 aacgtccagc ggcgagatgt cgcggagcat ggcgcgccaa gcctcgacgt gtgcgtccca
+    19861 tgcgccggag gcgagctgct cgcgctgcca gacggcgtag tcggcgtact ggatggggag
+    19921 gcccggaagg tccgtgccgc cgtagagcgc ggcgagctcg ccgacgaaga ggtcgagcga
+    19981 ccatccgtcg aaggccgcgt ggtggaacgt aaggacgaga acgtggtcgt cgggggcaag
+    20041 gcggacaagg acggcgcggc aggggcggtc gtgggcaagg tcgaaggggc ggtgtgcctc
+    20101 cttcttcgcg agcgactcgg cctcttccca agtcgcggca tcagcgagcg tgaaggggaa
+    20161 gggccccggc ggatggacga cctgcacggg cttgccgtcg gtgtcggccg cgaacgtcgt
+    20221 gcgcaggacc tcgtgccgat gcgcgatggc gtcgagggca gcgcgcaggc gtgccacgtc
+    20281 gagcggctgc cggatccggt aggcggcggg cacgttgtag agcggcgtgc cgggccgcca
+    20341 ctggtcgagg aaccagaggc gctgctgcgc gaacgagagg gggaactcgt acgtcgtcac
+    20401 gtccgggcct cctgctgctg gtagcgcgtg cggtcgatgc gcttgatccc cgcgggagcg
+    20461 agcaccgggg tgcccgtcac ctgtgccgct tcgatgcggc gcgccagcgc gtgaagcgtc
+    20521 ggtgcctcga agaccgcgct caggggcagg tcggcgctca tttcgctccg cacacgggca
+    20581 acaaggcggg ggacgagcag cgagtggccg ccgagctcga agaagccgtc cttcgcgccc
+    20641 acgcgcggca cgcccaggag gctggaccac aggcgcgaga gcgcttcctc cacggtgcct
+    20701 tggggtgcga cgtacccggc ggcggggagg gccgtggcgc caggcgccgg gagcgcagag
+    20761 cggtcgacct tgccggtgcg cgagagcggc acctcggcga tcgggacgta gagcgcaggc
+    20821 accatcggct cggggagcgt ggcgcgggcg tgctcgcgga gctcgcctgc ggccgcatcc
+    20881 ccgacgacgt aggcgacgag gcggtcttcg cgcgcgacga cgacggcatc acggaccttc
+    20941 gggtgcgcgc gcaggcacgc ctcgacctcg ccgggctcga tgcggaagcc gcgcaccttc
+    21001 acctgcgcat cgatgcggcc gaggaactcg acctggccgt cgggcaggaa ccggcagtgg
+    21061 tcgcccgtgc ggtacatgcg cgccccgggc tctccggaga aggggtcggg tacgaagcgc
+    21121 tcggctgtga ggtccgggcg gccaaggtag ccgcgtgcta ctccgacgcc gccgacatgc
+    21181 agctcgccgg ggaccccgat ggggacgggc tcgccgcggg tgtccagcac gtacaggcgc
+    21241 gtgttgggca aggggcgccc gagcggaggt gccgcgggga cgccggacgg acaatcggcg
+    21301 acggcacagc agacggagat ctcggtgggg ccgtagccgt tcatcatgcg ccggcccacg
+    21361 gaccagccgg ccgcgacatg cgcggggcat gcgtcggcgc cgctcatcac tgtgcgcagc
+    21421 agcgggaggt ccgtgggggc ggcggtggca aggacgccgg gcgtggcaag gagggccgtc
+    21481 acccggcgcc gcgcaagggt gtcacggagg ggctcgccga cgcattggtc ggctggcgcc
+    21541 aggatgagcg tgccgccgtc gaggaggctc agggcaagct cggcgacgac catgtcgacg
+    21601 ccgagggggg acatctgcag caggcgtgcc cgcggcccgg cgcccacgcg cgcggcgaag
+    21661 ccggtggcga agttgacggc cccgcggtgc tcgatgagga cgcccttggg ccgtccggtc
+    21721 gatccggacg tgtagatgac gtacgccagg ccggtgggcg tcgcgcccga ccgcgggcgc
+    21781 acggtgggct cggccgcgag cgccgggtcg tccaccagga cgatggacgc ggcggccgcc
+    21841 tcgcccgccg gcagcgaccc ttgcaggccg gaacgtgtga cgacgaggcg cgcaccggcg
+    21901 tccgcaagcg tccgctcgag gcgttcgcgg gggtgggacg ggtcgagcgg caggaaggct
+    21961 gcaccggcct tcaggatccc caagatcgcg acgtaggcct cgatggagcg gtcgaggtgc
+    22021 agcgcgacga tggcctcggg acgggcgccc agacgctgga gcctgtgggc cagccggttg
+    22081 gcgctctcgt cgaggtcgcg gtacgtgatg gcgcgtcctt cctcctcgat cgcgacccca
+    22141 tcgggcacgt ggtcggcgcg tccttcgaag agttggtgga ggagaaggtc gcgcgggaac
+    22201 ggcgcctcgg tggcgttcca ggcgcggacc gtcatgtcgc gctcgctggc cgccatccag
+    22261 ggcaagcgcg cgatgggtgc tgcggggtcg gccacgatgc cttcgaggag ggcgaggaag
+    22321 cggtccgcat agcggcgcgc ggtcgcctcg tcgaagaggt ccgcgctcgc ctcgatcgcg
+    22381 ccgcggagct cgtcgccttc gggggcgagc gagaggctca tgtccacctt ggccgcgccc
+    22441 gtcgcgacgg gcaactcctc gacccggaga ccggactcgg cgaaggccgg cgcgacgcgt
+    22501 tcctgcaggg cgaagaggac ctgcaccagc ggcgcgcggc tggggtcgcg ctcgacatgg
+    22561 agctcctcga ccaggcgctc gaacggcacg tcctggttgg cgtaggcgtc gaggcaggtg
+    22621 cgccggacac gggcaagcag ctcgcggaag gtggggtcgc ccgagaggtc ggtgcggagg
+    22681 accagggtgt tgacgaagaa gccgacgagc ccgccgacct cgggggcccg gcggcccgcg
+    22741 acgggcgtgc cgacggcgac gtcgtcggtg cgtgcgtggc ggtggaggag cgtcgcccag
+    22801 gccgcgagga gcaccatgta cagtgtcacg ccctcgcgcc gcgccagctc ttcgagggcg
+    22861 cgggcgaggc gggcagggat ggcgagaggc gtgtcatgtc cgcggagggt cggcgcggcg
+    22921 gggcgcgcgc ggtccgccgg gaggtcgagt ggccgcaggc cagcgagccg ttcacgccat
+    22981 gcggcaagct gcgggccaag gtgggccatg tgggcgcgct gccaacgggc gacgtccacg
+    23041 taccgcacgg ggagggcagg aagccggggt gcgcgcccct cgacgcacgc ggcgtagagc
+    23101 tcggagaggt cgcggaagag gacgccgacg ctccagccgt cgaaggcgac gtggtggaag
+    23161 gtcaggagga gcacgtggtc gtcgggggcc agccgggcca ggcgcgcccg gaacggcgcc
+    23221 tcgcgcgcca ggtcgaacgc gcgtgccgct tggtcgcggg ccagcgggag cacgtcctcc
+    23281 tcgccgggga cgtccacgac ctcgaggtgg aagggcgcgt gcggaaggac acgctgcacg
+    23341 ggctggccat cgggagcggg gtagatggtt cggaggacct cgtggcgctg gacgaggcca
+    23401 tcgagcgcgg cctccagtgc ggcgacgtcg aggggtccgc gcaggcggaa ggcgccgggg
+    23461 ttgttgtacg cgggactgtc cggacgccat tgttgcagga accaaagccg ctgctggcca
+    23521 aaggacaggg gaccgtccgg gcccggagtc gggacgatgg gagggatggg aggaagcccc
+    23581 tgggacccct gctgtacgga gagggcatgc gcgaggccgc ggaccgtcgg cgcctcgaag
+    23641 acggcgggca acgggaggtc gacgtcgaag gcctggcgca cgcgcgcgac aagccgcgtc
+    23701 gcgaggatgg aatccgcgcc gagcacgaag aagtcgtcgg cagcgcccac ccgacccgtc
+    23761 ccgagggtct gggcgacgag gccggcgagg atctcctcga cgggcccctc cggcgcgacg
+    23821 tacgcgcggt cctcgtcgtg cgcagggtca ggaagcgccc ggcggtcgac cttggcgttc
+    23881 ggcgtgagcg ggagggcgtc gagggcgacg acggcggagg ggacgaacgc gtcgggaagg
+    23941 cggcggcgca catggtcgcg gagcgcctgc gcatcgggcg tgggagcgcc gcggacgccg
+    24001 acgacgtacg cgacgagccg tcggccgcca tgcgcgtcgc tgcgtgcgat cacggccgcc
+    24061 tcggccacat cggggtgcgc cgcgagcgcc gcctccacct cgcccggctc gacgcggtgg
+    24121 ccgcggatct tcacctgctg gtccaggcgg ccgaggaact cgagcgcgcc gtcgttgcgc
+    24181 cagcgcgcgc ggtcgccggt gcggtagagg cgttcgcctg cgcgctcgac gaagcgctgc
+    24241 gccgtgagcc ccggtgcgcc gacgtagccg ttcgcgagcc cgtcgccgcc gaggtagagt
+    24301 tcgcccggcg cacccacggg gacgggacgc ccgtcgaggt cgagcaccag cgcacgcgtg
+    24361 ccgacgaggg ggcggccgat gggcacacgc tcgcccggcg gtccggtgac cggatggcag
+    24421 cacgcgaacg tcgtgcattc ggtcgggccg tagccgttca cgaggcgcag gtcgggcaag
+    24481 gccgccagcg tgcggcggac gtgcgacggg gacagggcgt ctccgcctgc gatgagctgg
+    24541 cggaccccgc gcaggccgtc gacggcctcg tccaccatga cgtggaacag gggcgccgtg
+    24601 agccagagtg tggtgatgcc ttgggtctgg aggacggcgc cgagctcgtg cgcggccagc
+    24661 gaccgcggcg gggccacgac gagccgcgct ccgtggagga gcgctcccca gacctcgaac
+    24721 gtcgccgcgt cgaacgcgag cggcgcgtac tggaggaacg tctcgtcggg cccgaaccgg
+    24781 atgtagtctt gtcccgtgac gaggcggacg atggcgcggt gggagaccat gacgcccttg
+    24841 ggagtgccgg tcgagcctga cgtgtacatg acgtacgcca ggtcgtcggg ccgggtgggg
+    24901 acgggggcca atggaccgtc gggctcgggg gcatcgacga ggacgagggg tgcgccgagc
+    24961 cccgccatgc ggtcacgcat ggcggagcgc gtgacgagga cgcgcgcgcc ggcgtcccgg
+    25021 agcgcgaagg cgatgcgctc gtccgggtgg ccaggatcga gcggcacgta ggcgccgccc
+    25081 gccttgagga caccgaggag cgccacgacg gcgtcggccg agcgctcgag gcagacgccc
+    25141 acggtcgccc ccggcccgat gccatgcgcc tggaggcttg cggccagcgc cgcggcgcgc
+    25201 gcgtccaaca cggcataggt cagggtcccc tccccggcga ccaccgcgac cttgtcgggc
+    25261 gtgcgcgcca cctgttcggc gaagagcgcc ggcacggtcc gcccgtcggg cgcgcgggtc
+    25321 cggccgctcc aggcaggcgc ctcgtcgtcg gggacgggaa gcgcagaaag gcgggcatcc
+    25381 ggcgtcgcgg cgatggcccg gagcacggcc tcgaggtcgc gcgccatgcg ctggatccgt
+    25441 gccgtctcga agaggtcggc gttcgcctcg agcgtgacgc gcaggcggtc ggcctcctcg
+    25501 gcgacccaca ccgtgaggtc gaacttcgcg atgcgcgaca cgatgggctc gcggtcgacg
+    25561 cggaggccag gcaaccggag gggcgcaggc gcgtgctgca gcacgagggc ggcctggaag
+    25621 aggggggtgc gccccaggtc atgcgcggcg cccatcgcct tcacgacgcg ctcgaaaggc
+    25681 gcggcctcat ccgcgtacgc ggccaggcaa gcggccttcg cgcgcagcac gacctcgcgc
+    25741 acggtggggt cgccggagag gtcggtccgg aggaccagca tgttgacgaa gaagccgacg
+    25801 acgtcggcgg cgccggggcc gtcgcgtccg gcggaaggcg cgcccagggc cacgtcgtcg
+    25861 gagccgccgt ggcggcggag gaacgcctgg cagccagcga cgagcgccat gaagagcgtg
+    25921 gcgtcgcccg agcgggcgag cgcgcggagg tcctgcgccg ggaggtcgaa ggagacgctg
+    25981 tcgccgcgga acgtctgcac gggtggacgc gcgcggtcgg tcgggacctc ggcggcatcg
+    26041 agtccggcga ggcgctcgcg cgtgcggcgg atcgccgcct cgacgtcgcg gccgcgttcg
+    26101 cgctcggtga ggtcaccctg ctggagggcg acgggcgcaa ggggagcctc ctcgtagagc
+    26161 gcagcgaggt cgcgcagcag ggcgcgctcg gacccctcgt cgaagacgat gtggtgcgca
+    26221 cagagcacca ggaggtggtc ctccgcggcg atgcgcgcga gcgcggcgcg gaagaggggt
+    26281 ccgcgggcca ggtcgaaggg ctcgtgtgcc gcgtcctgca cgagcgtccg cgcgtgccgc
+    26341 tcgtcgcgcg cctcgacgac ccgtagcggg accgtccctg gcgtcaggat ccgttggacg
+    26401 ggggccccgt ccacgcgggc gacgacggtc cgcagcgcct cgtggcgcgc ggcgacgccg
+    26461 tcgagtgccc gctggagctg ggcgacgcga agggggccac ggagccgcag ggcgagcgcg
+    26521 acgttgtagg cggggctcgc gggatcgagc tggtgaagga accagaggcg cccttggccg
+    26581 ggggagaggg gaacgccgtc gcggtcggcc aggggctcca agggtgcttg cgcgggcgcg
+    26641 gcgcgcaggc tcgcgagcgc ctcgatggtc gggcgctcga acacggcgcg gagcgggatc
+    26701 tcgacgccaa gcgagtcccg caggcgggcg accatctgcg cggcgaggag cgagtggccc
+    26761 ccgagcgcga agaatccgtc gtggacgccg accttgtcga gcccgaggag gtcgcaccag
+    26821 acgcgcgcga tcgcctcttc ctcgggcgtg cggggcgcga cgaaggcgtc ggcacgcatc
+    26881 gcgcgcccgg cgtccagggc cgggagcgcg ttgcggtcga ccttgccgtt cggcgtcagc
+    26941 ggcatcgcgt ccaggacgac gaagcttgcc ggcaccatcg cggcggggag gcgctccgcc
+    27001 aggcgcgtgc gtagctccgc cggcagggcg cgccggcgtt cgcggcgcgc gcgggcgcgc
+    27061 aggggctcgc tcgcgacgat gcgcggcgct ggcgggcggg gaacgtcggc gacgggcggc
+    27121 gcatcaccag gcgccaccac ggcgtcgaag ctgccatcgg cgcgtgcggc ggcccagctg
+    27181 agctcggcct cgtaccctgc ggcgcgggcg tcggcgacca cgtcgtcagg ctcgattcct
+    27241 tcgtcgcccg ctcccagccg ggcgttgggg atcgcggcaa gggcgagggc aggggggcgt
+    27301 tccgccagga gcttgcggaa ggcgtccccg ccgggccacg ggctccacgt ggacactggg
+    27361 atggacgggg gcgccgtccc cacgtggagg accacgtcgt agcggtacgc ggccatctcg
+    27421 ttgtggtgcc ggccagcgcg caggagcacc cgcacggcgc ggagcgccgg gatgcgcgtg
+    27481 cgcagtccgt cgaagaaggc agggtggagg accagctcgg cgtccgccgc ggcgcgcgcg
+    27541 tcgacccggc gttcgagctc ctcgggcgaa agctcgcgcc cggcgcgcgc ccgttcgacg
+    27601 gaggcgtgga acgcgcgctg gagcgggagg ctgcggacgt cgccgaccag gatcgcgcct
+    27661 tccttgacac gggcggcggc ctgttccagg acgcgcgcca ggtgctcggc gtcggggaag
+    27721 tattgcacga cggaattgag gaccacgacg tcgtacgtgt cgtcgagccc cgcgaagtcg
+    27781 gtggcctcgc gctcgtgcag gcggacgttc gtgacgccgc gcgcgtcgag ggcttgacgg
+    27841 aggcgcgcga gggtggcccc ggaaaggtcc gtgccgtcgt agacctcgca gagcggcgcg
+    27901 acgcgccaca gcagcaggcc ggtgccgcag ccgatctcga ggacgcggcg ggggtggagg
+    27961 gacttgatgc gctcgacggt cgcgccgacc cattcctgca tctcctcgcg ggggatcggc
+    28021 aggccggtgt ggctgctcgt ccatacgccc gtgtcgaagg tggggtccgc cacggcgtcg
+    28081 tcggcgcgcg cgtcgaagac gggccgccac gcgtccacga cggccttggc ggcttcgggg
+    28141 gtgacggccg gcgcgtcgtc ctcgcgcggc acgacgtagg ccacgagggc atcgtggcgg
+    28201 acgacgacgg cggcctcgcg gacatgctcc aggagcgccg cctccacctc gccgagctcc
+    28261 acgcggtggc cgcggacctt gacctgtcgg tcgagacggc cgaggtgctc gagcgtgccg
+    28321 tcggcgagcc agcgcacgcg gtcgccggtg cggtagacgc gctcgccgtt ccaggccggg
+    28381 aagcgttcgg ccgtgagctc cgggcgcgcg tggtaccctt ccgcgaggcc tgcgccgccg
+    28441 aggagcagct cgccggggac gccgacggga acgggccgca tgcgcgcgtc gacgacgtgc
+    28501 gcacgcgtgt tcgcgatcgg ccggccgatg ggcacgcgcg cgtcgcgggg gtcgagccgg
+    28561 tgcgcggtgg accagatggt cgtctcggtg gggccgtaga ggttccagac ctcgtcggcc
+    28621 cgagcctgca ggccgcgcgc gacgacgggc ggaagcgcct cgccgcccga gagcgccttc
+    28681 cggaggcgga cgtcggcgcc atcggctccc cagcccgagt cgaggagcat tcgccacgcc
+    28741 gccggagtcg cctgcaggat ggtcgcgtcg cgcatgcgcg cgaggagcag ggtgggatcg
+    28801 cgtgcctcgt cggcggtcgc gacatccacg gtggcgccgg ctaggagggg gaggtagacc
+    28861 tcgagccccg cgatgtcgaa ggagagggtc gtgacgctga gccaccggtc gtcgggcacg
+    28921 acgccgagcc gcgtgcgcat gtcgtggagg aagttggaga gggcgcggtg cgggatgcgg
+    28981 gtccccttcg gccggccggt cgagccggac gtgtagatca cgtacgccag gtcctccggc
+    29041 gtaagggcat cgtctgcggg gacctccggc gtgcgcttgc cgggcttgcc ggacgcgcga
+    29101 ggtttgccgg actcgctggg cttgccggac tcgctgggct tgccggactc gctgggctcg
+    29161 ctaggcatgt cgtcgagaag cacggcgtcc gcctggtggg ccgggaggct tcgtgccagg
+    29221 ctcgcggacg tgaggaggag gcgcgcgcca gagtcctgca gcatgtaggc gaggcgttcg
+    29281 gccgggtacg acgggtcgag aggcaggtac gcggcgccgg accgcaggat gccaaggagg
+    29341 gccgcgacca tgtcggcaga gcgctcggtg aggagggcga cgacggtgcc gcgcccggcg
+    29401 ccgcgcgccc gcaagtgggc ggcgaccgcg cgggcgcgag cgtccagcgc ggcgtacgtg
+    29461 aggcgctcgt cgccacagga gacggcgagt cggccgggcg tacgccgcgc ctgctcggcc
+    29521 acgaggtctt ggacgcaggc gcggggcacc tcggccgcgg ggccatgcca cgccgcgagg
+    29581 agccgcgcct cgtcgtccgg cagcagggga gcgtcggcga tggactgcgc cgggtcacgc
+    29641 gcgagggagg cgacgagcaa ctggaagcgg cgcgcaaagc gctctccggt ctcctcgtcc
+    29701 cagaggtcgg tgctgtgctc gagccagcag cggatgccgt caggctcgtc gagggtgaag
+    29761 agcgagaggt cccacttcga cgtgggggtg aagagccact cggggacgac ctcgacgccg
+    29821 gggagcacga gtcgatgctc gatgccgttc tggtgcgcgt agaacgcctg cgcgagcggc
+    29881 gcgcggctgg ggtcgcgcac ggggtggagc tcctcgacga gccgttcgaa ggggacctcg
+    29941 gggctcgcgt atgccgcgag gcatgtcgcc ttcacgcggg ccaggaggtc gcggaaggtg
+    30001 ggaccacccg acaggtcggc gcgcaggacg agggtgttga cgaagaagcc ggcgagcgcc
+    30061 tccagctccg gccgcgtgcg ggccgagatc ggcgaggcga ccgcgaagtc ctcctgccct
+    30121 gcatggcggt ggagggccac ctggaacgcc gcgaggatcg ccatgtacgg ggtgactgct
+    30181 tcggcgcggc agagcgcgcg gagcgcctcg gcggtcgcgg cgtcgatgcg gaacgccagg
+    30241 gtgcggccgg cgaaggtctg cgccggggcg cgtgggcggt cggtcgggag ctcaagggga
+    30301 gcggtgccct cgaggcgctg gcgccactgg gccagctcgc ggtcgaacgc cggcccggcc
+    30361 gagcgcccgc gttgccactg cgcgaagtcg gcgtactgga cggggaggtc ggggaggggt
+    30421 gacgggcggc cggcgatgaa cgcggcatag gtcgccgaca gttcccggtc gagcaccatc
+    30481 tccgatgcct cgtcgaaggc cgcgtggtgg acggcgacga ggaggacgcg ctcccggggg
+    30541 gcgaggcggt agaggcgggc gcgcaggatg ggcccctgct cgaggtcgag ggggacgcgg
+    30601 gcctcctcgt cgaggagggc acggagatct gcctcggacg cgacgtcgcg gggaaccaga
+    30661 agggtggagg gtgcctcatg gaccacggct cggggggcgc cctgggcgtc ggccacgagg
+    30721 gtggtccgca ggacctcgtg gcggcggacg acctccacca gggcacggtc gagggcggcc
+    30781 tcgtcgacga cgccgcgcag gcgcctcacg acgagcatgc tgtacgcagg gcttgcaggg
+    30841 tccaggcggt ggaggaacca gagacgctgc tgggcgaagg agaggacgcc gcggtccgtc
+    30901 gcgcgcggga tgacctgagg cacgacgggg gaagcggccg gcttgccctt cttccagagg
+    30961 tcgaggaggg cggccttggc cgccgagagc ggccgctggc ccgggaccgc tcctgcgctc
+    31021 acgctcgcct ccgcctcgac caaagtatct ggccacgact gggggaagga tttgacggtt
+    31081 gcggcacggc caagtggagg acccgccatc ggcggccgtg ggtcccgacc cggcgccgct
+    31141 cgaggtgcac gacctcgtga agcgttacgg ggaccgcacg gccgtggccg gcgtgtcgtt
+    31201 ccgcgtcgaa cggggctcga tcttctgcct cctcggcgag aacggggccg gcaagaccac
+    31261 gaccctggag gtggcccagg gcctcaggcg gccgaccgcc gggctggctt cgctcttcgg
+    31321 cgtggacgcg cagcgctcga cccccgcgct ccggcgccgg atgggcgtcc tgccccagcg
+    31381 gttcgcctgc ttccccggac tcaccgtacg cgagaacctg cgctacttcg ccgacgtcta
+    31441 cgacgcccgc ggcgacgggt cgggcctcct cgagcggctc ggcctggccg agcacgcgga
+    31501 ccagctggtg tccacgctga gcggcggcac ggcgcggcgc gtcggcgtcg ccacggcgct
+    31561 tgtccacgac ccagaactgg tcttcctcga cgagcccacc gcgggcgtcg atcctgcaag
+    31621 ccgccggcgc ctgtgggacg tgctcctcgc cttgcgcgac gagggcaagg ccatcgtcct
+    31681 caccacgcac tacatggacg aggcggagcg cctcgcggac gacatcctgg tcctccgcaa
+    31741 aggccgcacc gtcgcccgcg gccgccccag cgcgatccgg caggcgcacg gcggcggcgc
+    31801 ggtcctgcgc gtggccggcc tcggcgacgc cctccccccg ctcctcgccg agcgcgcggg
+    31861 cgtcgagcgc gaggcggacg gcgccgtcct ggtgcgtctc gccgaccccg ccgaggcgcc
+    31921 gctgctcctc gccggcctcc tcaaggcggg cgtcgccctc catgaggtca gcgtccgcga
+    31981 gcccaccctc gacgacgcct tcctgcgcct gtcggaggac gacgcgtgag cgtgcgcgcc
+    32041 gtccgggcgg acgcgaccta cgtgctgcgc gcttggctgc gcggccgctc gggcgtcgtc
+    32101 gtgtcgctcg cgatgccgct catcctcctc ctcgcgctcg gcctcatcgt ccggcccgcc
+    32161 ggggcggagg ccccgctggt cggagtcgcg gacctgtcgg gcacggccga aggcgacgcc
+    32221 ttgctcgagg cgctcgcggc ggacgacgcc gtgcgcatcg tcgccctcga ttcgcccccg
+    32281 gccgacgtgg cggcatggat gggcgacgct ggagcgcgcg gctacgttga gctcctggcg
+    32341 ggatggaacg ccacaacgcc gccgaggctc gtcgtcgacg ccgcgagccc tgtcgaggca
+    32401 gcggcggtcc gcgacgccgt cgctgccgcg cgttcgggcg ccgagcccct cgccgccgag
+    32461 gaggtgcggc tgcctgcgcc ggcgacgtac ggcgcgttcc tgctgccggg tgtcatcggc
+    32521 ctcaccgtcc tcaccgtcgg cctcccgctc ggcttcgcct cggtcatcga gctccggcag
+    32581 tacggcctca tggagcgcct cgcggtctcc ccgatgacgc gccgctcctg gctcctcgcg
+    32641 cgcatgctgg gcgcttcggt cgtcgcgctc gcctccgccg cgctcctggt cctcgtcgcc
+    32701 tgggccgcgc tcggcatccg gcccgtgctc gggctgtgga cggtcctcct cgtcgtggcg
+    32761 ggcaccctgg tcttctccgg cctcggcgcg ctgctgggcg gcgccgtgcg cgacccgagt
+    32821 ccggcagcgc catcctgaac ctcgcgctcc tgcccatcgt cctgctctcg ggctcgttct
+    32881 tcgacgtggc gctccttccc gggccgctgc ggtgggcctc gttcatctcc ccgctcacgc
+    32941 acctcaacgc cggccttcgg ttgggaatgc tcgaaggcga cgtcggcggc gcgctgctgc
+    33001 atgcggctgc cctggcggcc gcggcggcgg tccttctcct cgcgggcgga cgcttcgtgc
+    33061 gctggaccgc gcgcgattga cgtgacagcg cgcgggcctt ggtgtccgct cgcggaaggc
+    33121 gcaggcgcta cgtgacgccg gtcgtgccca gctccttgcc ttcgaggagc ttcccggtcc
+    33181 acgggttgcg caggcggccg ggctggacga cctggatgcc ggacgtgtag gccccgggca
+    33241 tgaagcgctc gccgttgacc agcaggcctt cctggtcgtc gtgctggacc tcgtagtcgc
+    33301 cgtggaagac cgtggtgcgg cgcggcacgc gcaggggcac gtcgcagcac tcgcaacgcc
+    33361 acatgtaggc gcggtcgttg aagatctcgg cggggtaggt cgccatctgc tcgatctcgt
+    33421 cgccgaagaa ggcccagaac gcctcctcgg cccacttcag gttcccgccc tggttctcct
+    33481 ggatctcggg gtgctcctgc cggaccttca tcgggcgcgg caaggcgttg gacgtggcgg
+    33541 cctggatctc ggcggcgacc ttgctgacct tcttcggctt gcccgagcgc ttcgccggcg
+    33601 gggcctcgtc gtgctggacg tgcgccttca ccttgcggat cggcttgggc ttgggggctt
+    33661 ccgtgaacga gagcgccggc gtcgcgtcct tctccttcga cgccttgccc ttggccttgg
+    33721 gggcggcctt ggccgccttc ttcgtggtca ttgcgagatc gacctccaga acgccttgtc
+    33781 ctgcgagcgg taggcgtcga gcgccagctg catgcccgtc cagtagtcgt tgtcgacgcg
+    33841 gcggacggag ccggggtact cctgcacgaa cttcgccgtc gaggtgcgga cctcgtcctc
+    33901 gttgtccgtc ttcgccttca cgtagcggat gtgctcgacg acgcggcgcc atccgtcggc
+    33961 cgtcgaggtg ccttccttca cgtacgccgg cagggcgatg ggttccggcg ccttggcctt
+    34021 gggcggctcc tcgggagggg ccgggatgag cgtgccgtcg gggcccacca tgttcttccg
+    34081 gttgtgccat ggcgtcgccg gcttcttcct gtagttggtg aagtcgacca tcgggagcgt
+    34141 gccgaggagg ttggaggggc ctcttcaagc ctttccgtcg cccataagag gagactccag
+    34201 gaa
+//
