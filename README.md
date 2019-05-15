@@ -1,14 +1,14 @@
 # BGCs in rare metagenomic DNA
 A repository for downstream analysis scripts (Python Jupyter notebooks) and BGC sequences related to the CONKAT-seq pipeline
 
-
+---
 
 
 ## BGCs antismash analysis files (.gbk)
 The sequences are also available on genbank (accession numbers pending)
 
 
-
+---
 
 ## Analysis scripts:
 ### Distance_v1.0.ipynb
@@ -18,7 +18,7 @@ This script was used to calculate similarity scores used in Fig. 2a, Fig. 3a, an
 Fig. 3a was generated using chord2.js, a d3.js plugin developed by G. Gherdovich (https://bitbucket.org/gghh/chord2/). 
 
 
----
+
 
 ### HIseq abundance-v1.0.ipynb
 **Estimates the abundance of metagenomic inserts of interest by calculating the associated depth of coverage obtained with a shallow untargetted sequencing run of the whole library.**
@@ -26,7 +26,7 @@ Duplicate reads are removed using BBtools’s clumpify.sh and reads originating 
 This script was used to generate the abundance histogram depicted in Fig. 2d.
 
 
----
+
 
 ### PacBio_processing_v1.0.ipynb
 **Performs de-novo assembly of metagenomic inserts from PacBio reads.**
