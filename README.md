@@ -1,6 +1,6 @@
 # BGCs_in_rare_metagenomic_DNA
 
-## Distance_v1.0,ipynb
+## Distance_v1.0.ipynb
 Compares domain networks to references and to other networks. 
 
 For each soil sample, sequenced amplicons forming networks of 3 or more domains are translated into protein sequences and compared to the protein sequence of BGCs in databases (MIBiG and AntismashDB) or to predicted domain networks from other soil samples using blastp. If at least 50% of the domains in a network matched independent positions on proteins from a BGC in a database or independent domains in another domain network, a similarity score is calculated for the pair. The similarity score is defined as the median pairwise identity between domains and reference BGC proteins, taking into account non-matching domains and the best combination of matching domains. 
