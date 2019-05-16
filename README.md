@@ -5,7 +5,13 @@ A repository for downstream analysis scripts (Python Jupyter notebooks) and BGC 
 
 
 ## BGCs antismash analysis files (.gbk)
-```./antismash/```
+NRPS and PKS genes locations of these sequences are depicted in Supplementary Fig. 4.
+
+```./recovered_single_clones/``` - single clones used for network validation analysis in Fig. 2b. A subset (10) are depicted in Fig. 2c.
+
+```./recovered_multiple_overlapping_clones/``` - overlapping clones used for network validation analysis in Fig. 2b. A subset (2) are depicted in Fig. 2c. Also contains common yet unknown BGCs found in multiple soils depicted in Fig. 3b/3c and BGCs containing targeted building blocks depicted in Fig. 4b.
+
+```./PacBio_contigs/``` - Contigs harboring BGCs predicted by CONKAT-seq obtained by single-molecule long read sequencing of library subpools
 
 The sequences are also available on genbank (accession numbers pending)
 
