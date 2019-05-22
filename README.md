@@ -2,7 +2,8 @@
 A repository for downstream analysis scripts (Python Jupyter notebooks) and BGC sequences related to the CONKAT-seq pipeline
 
 ---
-
+## Link to amplicon sequencing data used in this study-
+Arizona Library (AD domains): https://rockefeller.box.com/s/k8yqa0vfr9w1o8ish359c7zaitll3ei5
 
 ## BGCs antismash analysis files (.gbk)
 
