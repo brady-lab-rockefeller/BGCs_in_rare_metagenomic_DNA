@@ -3,7 +3,7 @@ A repository for downstream analysis scripts (Python Jupyter notebooks) and BGC 
 
 ---
 ## Link to amplicon sequencing data used in this study
-Arizona Library (AD domains): https://rockefeller.box.com/s/k8yqa0vfr9w1o8ish359c7zaitll3ei5
+Arizona Library (AD domains): https://rockefeller.box.com/s/lwro92ckuc0oz1jqqiga3q2an71txvve
 
 ## BGCs antismash analysis files (.gbk)
 
